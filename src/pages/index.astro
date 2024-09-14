@@ -7,3 +7,14 @@ import Layout from '../layouts/Layout.astro'
   <h1>Welcome</h1>
   <Button>Click me</Button>
 </Layout>
+
+<script>
+  import wiki from 'wikijs'
+
+  const myWiki = wiki() as { page: (title: string) => Promise<any> }
+
+  myWiki
+    .page('Batman')
+    .then((page) => page.info('alterEgo'))
+    .then(console.log) // Bruce Wayne
+</script>
