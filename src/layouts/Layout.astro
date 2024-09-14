@@ -1,4 +1,6 @@
 ---
+import Footer from '@/components/Footer.astro'
+import Navbar from '@/components/Navbar.astro'
 import '@/styles/globals.css'
 
 interface Props {
@@ -6,6 +8,7 @@ interface Props {
 }
 
 const { title } = Astro.props
+const isDarkMode = true
 ---
 
 <!doctype html>
@@ -18,9 +21,19 @@ const { title } = Astro.props
     <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
-    <main class='mx-auto max-w-4xl px-4 sm:px-6 lg:px-8'>
+  <body
+    class:list={[
+      {
+        dark: isDarkMode,
+      },
+    ]}
+  >
+    <main
+      class='bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col w-4/5 mx-auto'
+    >
+      <Navbar />
       <slot />
+      <Footer />
     </main>
   </body>
 </html>

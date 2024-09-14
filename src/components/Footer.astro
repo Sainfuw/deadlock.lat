@@ -1,0 +1,80 @@
+---
+import { heroes } from '@/db/data'
+import { Image } from 'astro:assets'
+import { Github, Linkedin, X } from 'lucide-react'
+---
+
+<footer class='bg-black text-white py-8 mt-8'>
+  <div class='w-4/5 mx-auto'>
+    <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <div>
+        <h3 class='text-lg font-semibold mb-4'>Builds de Héroes</h3>
+        <ul class='space-y-2'>
+          {
+            heroes.slice(0, 5).map((hero) => (
+              <li>
+                <a
+                  href={`/builds/${hero.id}`}
+                  class='text-gray-300 hover:text-white hover:underline'
+                >
+                  {hero.name}
+                </a>
+              </li>
+            ))
+          }
+          <li>
+            <a
+              href='/builds'
+              class='text-gray-300 hover:text-white hover:underline'
+            >
+              Ver todos los héroes
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class='text-lg font-semibold mb-4'>Información del Creador</h3>
+        <p class='mb-2'>Creado por: Juan Pérez</p>
+        <p class='mb-4'>Desarrollador de juegos y entusiasta de la fantasía</p>
+        <div class='flex space-x-4'>
+          <a
+            href='https://github.com/juanperez'
+            target='_blank'
+            rel='noopener noreferrer'
+            class='text-gray-400 hover:text-white'
+          >
+            <Github className='size-6' />
+          </a>
+          <a
+            href='https://twitter.com/juanperez'
+            target='_blank'
+            rel='noopener noreferrer'
+            class='text-gray-400 hover:text-white'
+          >
+            <X className='size-6' />
+          </a>
+          <a
+            href='https://linkedin.com/in/juanperez'
+            target='_blank'
+            rel='noopener noreferrer'
+            class='text-gray-400 hover:text-white'
+          >
+            <Linkedin className='size-6' />
+          </a>
+        </div>
+      </div>
+      <div class='flex flex-col items-center'>
+        <Image
+          src='/placeholder.svg?height=80&width=80&text=Logo'
+          alt='Logo'
+          width={80}
+          height={80}
+          class='mb-4'
+        />
+        <p class='text-center text-sm text-gray-400'>
+          © 2023 Game Wiki. Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

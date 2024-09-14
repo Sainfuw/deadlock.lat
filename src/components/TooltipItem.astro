@@ -1,0 +1,53 @@
+---
+import { Image } from 'astro:assets'
+
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@radix-ui/react-tooltip'
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
+
+interface Props {
+  item: {
+    id: number
+    name: string
+    type: string
+    price: number
+    description: string
+  }
+}
+
+const { item } = Astro.props
+---
+
+<TooltipProvider>
+  <Tooltip>
+    <TooltipTrigger asChild>
+      <Card
+        className='hover:bg-black/5 dark:hover:bg-white/5 transition-colors bg-white dark:bg-black/20 border border-gray-200 dark:border-gray-800'
+      >
+        <CardHeader className='p-3'>
+          <CardTitle className='text-sm'>{item.name}</CardTitle>
+          <p class='text-xs text-gray-600 dark:text-gray-400'>
+            {item.type}
+          </p>
+        </CardHeader>
+        <CardContent className='p-3'>
+          <Image
+            src={`/placeholder.svg?height=100&width=100&text=${item.name}`}
+            alt={item.name}
+            width={100}
+            height={100}
+            class='rounded-lg mx-auto'
+          />
+          <p class='text-center mt-2 font-bold'>{item.price} G</p>
+        </CardContent>
+      </Card>
+    </TooltipTrigger>
+    <TooltipContent>
+      <p>{item.description}</p>
+    </TooltipContent>
+  </Tooltip>
+</TooltipProvider>

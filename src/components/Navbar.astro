@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets'
+
+import { Moon, Sun } from 'lucide-react'
+import { Dropdown } from './atoms/Dropdown'
+import { Switch } from './ui/switch'
+
+let isDarkMode = true
+---
+
+<nav class='border-b border-gray-200 dark:border-gray-800 py-4'>
+  <div class='flex justify-between items-center'>
+    <div class='flex items-center'>
+      <Image
+        src='/placeholder.svg?height=40&width=40&text=Logo'
+        alt='Logo'
+        width={40}
+        height={40}
+        class='mr-2'
+      />
+      <span class='text-xl font-bold'>Game Wiki</span>
+    </div>
+    <div class='flex items-center space-x-4'>
+      <Dropdown client:load />
+      <div class='flex items-center space-x-2'>
+        <Sun
+          className='h-[1.2rem] w-[1.2rem] text-gray-400 dark:text-gray-500'
+        />
+        <Switch checked={!isDarkMode} aria-label='Toggle dark mode' />
+        <Moon
+          className='h-[1.2rem] w-[1.2rem] text-gray-400 dark:text-gray-500'
+        />
+      </div>
+    </div>
+  </div>
+</nav>
