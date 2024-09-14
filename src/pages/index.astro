@@ -1,20 +1,401 @@
 ---
-import { Button } from '@/components/ui/button'
 import Layout from '../layouts/Layout.astro'
+
+import { Image } from 'astro:assets'
+
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet'
+import { Switch } from '@/components/ui/switch'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip'
+import { Github, Globe, Link, Linkedin, Moon, Sun, X } from 'lucide-react'
+
+const heroes = [
+  {
+    id: 1,
+    name: 'Thunderbolt',
+    role: 'Mago',
+    description: 'Un poderoso mago que controla los rayos y las tormentas.',
+  },
+  {
+    id: 2,
+    name: 'Iron Guardian',
+    role: 'Tanque',
+    description: 'Un guerrero imparable con una armadura impenetrable.',
+  },
+  {
+    id: 3,
+    name: 'Shadow Assassin',
+    role: 'Asesino',
+    description: 'Un asesino sigiloso que ataca desde las sombras.',
+  },
+  {
+    id: 4,
+    name: "Nature's Wrath",
+    role: 'Apoyo',
+    description:
+      'Un druida que canaliza el poder de la naturaleza para ayudar a sus aliados.',
+  },
+  {
+    id: 5,
+    name: 'Flame Dancer',
+    role: 'Mago',
+    description: 'Una hechicera que domina el arte del fuego y la danza.',
+  },
+  {
+    id: 6,
+    name: 'Frost Giant',
+    role: 'Tanque',
+    description: 'Un gigante de hielo que congela a sus enemigos con su toque.',
+  },
+  {
+    id: 7,
+    name: 'Techno Wizard',
+    role: 'Apoyo',
+    description:
+      'Un genio que combina magia y tecnología para potenciar a sus aliados.',
+  },
+  {
+    id: 8,
+    name: 'Void Walker',
+    role: 'Asesino',
+    description:
+      'Un ser enigmático que se mueve entre dimensiones para eliminar a sus objetivos.',
+  },
+]
+
+const items = [
+  {
+    id: 1,
+    name: 'Espada del Trueno',
+    type: 'Arma',
+    price: 1000,
+    description: 'Una espada que canaliza el poder del rayo.',
+  },
+  {
+    id: 2,
+    name: 'Amuleto de Protección',
+    type: 'Accesorio',
+    price: 750,
+    description: 'Un amuleto que aumenta la defensa mágica.',
+  },
+  {
+    id: 3,
+    name: 'Botas de Velocidad',
+    type: 'Armadura',
+    price: 800,
+    description: 'Botas que aumentan la velocidad de movimiento.',
+  },
+  {
+    id: 4,
+    name: 'Orbe de Poder',
+    type: 'Artefacto',
+    price: 1200,
+    description: 'Un orbe que amplifica el poder mágico.',
+  },
+  {
+    id: 5,
+    name: 'Capa de Invisibilidad',
+    type: 'Armadura',
+    price: 950,
+    description: 'Una capa que otorga invisibilidad temporal.',
+  },
+  {
+    id: 6,
+    name: 'Bastón de Curación',
+    type: 'Arma',
+    price: 900,
+    description: 'Un bastón que permite curar a los aliados.',
+  },
+  {
+    id: 7,
+    name: 'Anillo de Mana',
+    type: 'Accesorio',
+    price: 600,
+    description: 'Un anillo que aumenta la regeneración de mana.',
+  },
+  {
+    id: 8,
+    name: 'Escudo Reflector',
+    type: 'Armadura',
+    price: 1100,
+    description: 'Un escudo que refleja parte del daño recibido.',
+  },
+]
+
+let isDarkMode = true
+let language = 'es'
+
+// useEffect(() => {
+//   document.documentElement.classList.toggle('dark', isDarkMode)
+// }, [isDarkMode])
+
+// const toggleTheme = () => {
+//   setIsDarkMode(!isDarkMode)
+// }
+
+// const changeLanguage = (lang: string) => {
+//   setLanguage(lang)
+//   // Aquí se implementaría la lógica para cambiar el idioma en toda la aplicación
+// }
 ---
 
 <Layout title='Welcome to Astro.'>
-  <h1>Welcome</h1>
-  <Button>Click me</Button>
+  <div class={`min-h-screen ${isDarkMode ? 'dark' : ''}`}>
+    <div
+      class='bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col'
+    >
+      <div class='w-4/5 mx-auto'>
+        <nav class='border-b border-gray-200 dark:border-gray-800 py-4'>
+          <div class='flex justify-between items-center'>
+            <div class='flex items-center'>
+              <Image
+                src='/placeholder.svg?height=40&width=40&text=Logo'
+                alt='Logo'
+                width={40}
+                height={40}
+                class='mr-2'
+              />
+              <span class='text-xl font-bold'>Game Wiki</span>
+            </div>
+            <div class='flex items-center space-x-4'>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant='outline' size='icon'>
+                    <Globe className='h-[1.2rem] w-[1.2rem]' />
+                    <span class='sr-only'>Toggle language</span>
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align='end'>
+                  <DropdownMenuItem> Español </DropdownMenuItem>
+                  <DropdownMenuItem> English </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+              <div class='flex items-center space-x-2'>
+                <Sun
+                  className='h-[1.2rem] w-[1.2rem] text-gray-400 dark:text-gray-500'
+                />
+                <Switch checked={!isDarkMode} aria-label='Toggle dark mode' />
+                <Moon
+                  className='h-[1.2rem] w-[1.2rem] text-gray-400 dark:text-gray-500'
+                />
+              </div>
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant='outline'>Login</Button>
+                </SheetTrigger>
+                <SheetContent>
+                  <SheetHeader>
+                    <SheetTitle>Login</SheetTitle>
+                    <SheetDescription>
+                      Enter your credentials to access your account.
+                    </SheetDescription>
+                  </SheetHeader>
+                  <form class='space-y-4 mt-4'>
+                    <div class='space-y-2'>
+                      <Label htmlFor='email'>Email</Label>
+                      <Input
+                        id='email'
+                        type='email'
+                        placeholder='your@email.com'
+                      />
+                    </div>
+                    <div class='space-y-2'>
+                      <Label htmlFor='password'>Password</Label>
+                      <Input id='password' type='password' />
+                    </div>
+                    <Button type='submit' className='w-full'>Login</Button>
+                  </form>
+                </SheetContent>
+              </Sheet>
+            </div>
+          </div>
+        </nav>
+
+        <main class='py-8 flex-grow'>
+          <h1 class='text-4xl font-bold mb-6 text-center'>Wiki del Juego</h1>
+
+          <!-- <Tabs defaultValue='heroes' className='w-full'>
+            <TabsList className='grid w-full grid-cols-2'>
+              <TabsTrigger value='heroes'>Héroes</TabsTrigger>
+              <TabsTrigger value='items'>Ítems</TabsTrigger>
+            </TabsList>
+            <TabsContent value='heroes'> -->
+          <div
+            class='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6'
+          >
+            {
+              heroes.map((hero) => (
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Link href={`/hero/${hero.id}`}>
+                        <Card className='hover:bg-black/5 dark:hover:bg-white/5 transition-colors bg-white dark:bg-black/20 border border-gray-200 dark:border-gray-800'>
+                          <CardHeader className='p-3'>
+                            <CardTitle className='text-sm'>
+                              {hero.name}
+                            </CardTitle>
+                            <p class='text-xs text-gray-600 dark:text-gray-400'>
+                              {hero.role}
+                            </p>
+                          </CardHeader>
+                          <CardContent className='p-3'>
+                            <Image
+                              src={`/placeholder.svg?height=100&width=100&text=${hero.name}`}
+                              alt={hero.name}
+                              width={100}
+                              height={100}
+                              class='rounded-lg mx-auto'
+                            />
+                          </CardContent>
+                        </Card>
+                      </Link>
+                    </TooltipTrigger>
+                    <TooltipContent>
+                      <p>{hero.description}</p>
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
+              ))
+            }
+          </div>
+        </main>
+        <!-- <TabsContent value='items'> -->
+        <div
+          class='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6'
+        >
+          {
+            items.map((item) => (
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Card className='hover:bg-black/5 dark:hover:bg-white/5 transition-colors bg-white dark:bg-black/20 border border-gray-200 dark:border-gray-800'>
+                      <CardHeader className='p-3'>
+                        <CardTitle className='text-sm'>{item.name}</CardTitle>
+                        <p class='text-xs text-gray-600 dark:text-gray-400'>
+                          {item.type}
+                        </p>
+                      </CardHeader>
+                      <CardContent className='p-3'>
+                        <Image
+                          src={`/placeholder.svg?height=100&width=100&text=${item.name}`}
+                          alt={item.name}
+                          width={100}
+                          height={100}
+                          class='rounded-lg mx-auto'
+                        />
+                        <p class='text-center mt-2 font-bold'>{item.price} G</p>
+                      </CardContent>
+                    </Card>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>{item.description}</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            ))
+          }
+        </div>
+        <!-- </TabsContent>
+          </Tabs> -->
+      </div>
+    </div>
+
+    <footer class='bg-black text-white py-8 mt-8'>
+      <div class='w-4/5 mx-auto'>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+          <div>
+            <h3 class='text-lg font-semibold mb-4'>Builds de Héroes</h3>
+            <ul class='space-y-2'>
+              {
+                heroes.slice(0, 5).map((hero) => (
+                  <li>
+                    <Link
+                      href={`/builds/${hero.id}`}
+                      className='text-gray-300 hover:text-white hover:underline'
+                    >
+                      {hero.name}
+                    </Link>
+                  </li>
+                ))
+              }
+              <li>
+                <Link
+                  href='/builds'
+                  className='text-gray-300 hover:text-white hover:underline'
+                >
+                  Ver todos los héroes
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class='text-lg font-semibold mb-4'>Información del Creador</h3>
+            <p class='mb-2'>Creado por: Juan Pérez</p>
+            <p class='mb-4'>
+              Desarrollador de juegos y entusiasta de la fantasía
+            </p>
+            <div class='flex space-x-4'>
+              <a
+                href='https://github.com/juanperez'
+                target='_blank'
+                rel='noopener noreferrer'
+                class='text-gray-400 hover:text-white'
+              >
+                <Github className='size-6' />
+              </a>
+              <a
+                href='https://twitter.com/juanperez'
+                target='_blank'
+                rel='noopener noreferrer'
+                class='text-gray-400 hover:text-white'
+              >
+                <X className='size-6' />
+              </a>
+              <a
+                href='https://linkedin.com/in/juanperez'
+                target='_blank'
+                rel='noopener noreferrer'
+                class='text-gray-400 hover:text-white'
+              >
+                <Linkedin className='size-6' />
+              </a>
+            </div>
+          </div>
+          <div class='flex flex-col items-center'>
+            <Image
+              src='/placeholder.svg?height=80&width=80&text=Logo'
+              alt='Logo'
+              width={80}
+              height={80}
+              class='mb-4'
+            />
+            <p class='text-center text-sm text-gray-400'>
+              © 2023 Game Wiki. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </Layout>
-
-<script>
-  import wiki from 'wikijs'
-
-  const myWiki = wiki() as { page: (title: string) => Promise<any> }
-
-  myWiki
-    .page('Batman')
-    .then((page) => page.info('alterEgo'))
-    .then(console.log) // Bruce Wayne
-</script>
