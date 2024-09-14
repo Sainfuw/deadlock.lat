@@ -29,7 +29,7 @@ const isDarkMode = true
     ]}
   >
     <main
-      class='bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col w-4/5 mx-auto'
+      class='bg-white dark:bg-black text-black dark:text-white min-h-screen flex flex-col max-w-4xl mx-auto'
     >
       <Navbar />
       <slot />
@@ -37,3 +37,10 @@ const isDarkMode = true
     </main>
   </body>
 </html>
+
+<style>
+  body {
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable both-edges;
+  }
+</style>

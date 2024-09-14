@@ -1,54 +1,7 @@
 ---
-import { heroes } from '@/db/data'
-import { Image } from 'astro:assets'
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
+import { SectionTabs } from './atoms/SectionTabs'
 ---
 
 <main class='py-8 flex-grow'>
-  <h1 class='text-4xl font-bold mb-6 text-center'>Wiki del Juego</h1>
-
-  <!-- <Tabs defaultValue='heroes' className='w-full'>
-            <TabsList className='grid w-full grid-cols-2'>
-              <TabsTrigger value='heroes'>Héroes</TabsTrigger>
-              <TabsTrigger value='items'>Ítems</TabsTrigger>
-            </TabsList>
-            <TabsContent value='heroes'> -->
-  <div
-    class='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6'
-  >
-    {
-      heroes.map((hero) => (
-        // <TooltipProvider>
-        // <Tooltip>
-        <div>
-          {/* <ToaoltipTrigger asChild> */}
-          <a href={`/hero/${hero.id}`}>
-            <Card className='hover:bg-black/5 dark:hover:bg-white/5 transition-colors bg-white dark:bg-black/20 border border-gray-200 dark:border-gray-800'>
-              <CardHeader className='p-3'>
-                <CardTitle className='text-sm'>{hero.name}</CardTitle>
-                <p class='text-xs text-gray-600 dark:text-gray-400'>
-                  {hero.role}
-                </p>
-              </CardHeader>
-              <CardContent className='p-3'>
-                <Image
-                  src={`/placeholder.svg?height=100&width=100&text=${hero.name}`}
-                  alt={hero.name}
-                  width={100}
-                  height={100}
-                  class='rounded-lg mx-auto'
-                />
-              </CardContent>
-            </Card>
-          </a>
-          {/* </ToaoltipTrigger> */}
-          {/* <TooltipContent> */}
-          <p>{hero.description}</p>
-          {/* </TooltipContent> */}
-          {/* </Tooltip> */}
-          {/* </TooltipProvider> */}
-        </div>
-      ))
-    }
-  </div>
+  <SectionTabs client:load />
 </main>
