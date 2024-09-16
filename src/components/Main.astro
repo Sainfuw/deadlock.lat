@@ -1,7 +1,12 @@
 ---
+import { actions } from 'astro:actions'
 import { SectionTabs } from './atoms/SectionTabs'
+
+const { data, error } = await actions.getHeroes()
+
+if (error) throw new Error('Error fetching data')
 ---
 
 <main class='py-8 flex-grow'>
-  <SectionTabs client:load />
+  <SectionTabs client:load heroes={data} />
 </main>
