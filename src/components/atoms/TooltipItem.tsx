@@ -1,3 +1,5 @@
+import { API_BASE_URL } from '@/consts'
+import type { IItem } from '@/interfaces/item'
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card'
 import {
   Tooltip,
@@ -7,13 +9,7 @@ import {
 } from '../ui/tooltip'
 
 interface Props {
-  item: {
-    id: number
-    name: string
-    type: string
-    price: number
-    description: string
-  }
+  item: IItem
 }
 
 export const TooltipItem = ({ item }: Props) => {
@@ -25,12 +21,12 @@ export const TooltipItem = ({ item }: Props) => {
             <CardHeader className='p-3'>
               <CardTitle className='text-sm'>{item.name}</CardTitle>
               <p className='text-xs text-gray-600 dark:text-gray-400'>
-                {item.type}
+                {item.description}
               </p>
             </CardHeader>
             <CardContent className='p-3'>
               <img
-                src={`/placeholder.svg?height=100&width=100&text=${item.name}`}
+                src={`${API_BASE_URL}${item.image}`}
                 alt={item.name}
                 width={100}
                 height={100}
