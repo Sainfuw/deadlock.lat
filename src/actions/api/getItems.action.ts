@@ -43,7 +43,7 @@ export const getItems = defineAction({
 
       if (t0![0] === 'StatsWeapon') return
 
-      const obj = {
+      return {
         name: t0![0],
         type: t0![3],
         power: t0![1],
@@ -55,8 +55,6 @@ export const getItems = defineAction({
         passives: t5 ?? [],
         image,
       }
-
-      return obj
     })
 
     return result.filter((item) => item !== undefined)

@@ -1,3 +1,4 @@
+import type { IHero } from '@/interfaces/hero'
 import { defineAction } from 'astro:actions'
 import { JSDOM } from 'jsdom'
 
