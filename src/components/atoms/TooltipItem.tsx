@@ -20,9 +20,6 @@ export const TooltipItem = ({ item }: Props) => {
           <Card className='hover:bg-black/5 dark:hover:bg-white/5 transition-colors bg-white dark:bg-black/20 border border-black/30 dark:border-white/20'>
             <CardHeader className='p-3'>
               <CardTitle className='text-sm'>{item.name}</CardTitle>
-              <p className='text-xs text-gray-600 dark:text-gray-400'>
-                {item.description}
-              </p>
             </CardHeader>
             <CardContent className='p-3'>
               <img

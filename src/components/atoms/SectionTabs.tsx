@@ -6,7 +6,7 @@ import { TooltipItem } from './TooltipItem'
 
 interface Props {
   heroes: IHero[]
-  items: IItem[]
+  items: Object
 }
 
 export const SectionTabs = ({ heroes, items }: Props) => {
@@ -25,9 +25,21 @@ export const SectionTabs = ({ heroes, items }: Props) => {
       </TabsContent>
 
       <TabsContent value='items'>
-        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6'>
-          {items.map((item, i) => (
-            <TooltipItem key={i} item={item} />
+        <div>
+          {Object.entries(items).map(([type, itemsByType]) => (
+            <div key={type}>
+              <h2>{type}</h2>
+              {Object.entries(itemsByType).map(([key, itemsByPrice]) => (
+                <div key={key}>
+                  <h2>{key}</h2>
+                  <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-6'>
+                    {(itemsByPrice as IItem[]).map((item: IItem) => (
+                      <TooltipItem key={item.name} item={item} />
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
           ))}
         </div>
       </TabsContent>

@@ -47,7 +47,7 @@ export const getItems = defineAction({
         name: t0![0],
         type: t0![3],
         power: t0![1],
-        price: +t0![2].trim(),
+        price: Number(t0![2].trim().replace(',', '')),
         components: t1,
         description: t2,
         stats: t3,
@@ -58,8 +58,29 @@ export const getItems = defineAction({
     })
 
     const filteredResult = result.filter((item) => item !== undefined)
-    // await fs.writeFile('src/data/items.json', JSON.stringify(filteredResult))
 
-    return filteredResult
+    const groupByType = filteredResult.reduce((acc: any, item) => {
+      acc[item.type] = [...(acc[item.type] || []), item]
+      return acc
+    }, {})
+
+    for (const type in groupByType) {
+      const groupByPrice = groupByType[type].reduce((acc: any, item) => {
+        console.log(item.price)
+        if (item.price < 1250) acc['500'] = [...(acc[item.price] || []), item]
+        else if (item.price < 3000)
+          acc['1250'] = [...(acc[item.price] || []), item]
+        else if (item.price < 6000)
+          acc['3000'] = [...(acc[item.price] || []), item]
+        else acc['6200'] = [...(acc[item.price] || []), item]
+        return acc
+      }, {})
+
+      groupByType[type] = groupByPrice
+    }
+
+    // await fs.writeFile('src/data/items.json', JSON.stringify(groupByType))
+
+    return groupByType
   },
 })
