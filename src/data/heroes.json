@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Abrams",
+    "title": "Charges into close combat",
+    "description": "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his back-line teammates can lay out damage with impunity.",
+    "images": [
+      "/images/thumb/c/cc/Abrams_Render.png/256px-Abrams_Render.png",
+      "/images/thumb/6/6d/Abrams_card.png/264px-Abrams_card.png"
+    ],
+    "skills": [
+      "/images/thumb/f/fd/Siphon_Life.png/48px-Siphon_Life.png",
+      "/images/thumb/c/c6/Shoulder_Charge.png/48px-Shoulder_Charge.png",
+      "/images/thumb/5/55/Infernal_Resilience.png/48px-Infernal_Resilience.png",
+      "/images/thumb/a/a1/Seismic_Impact.png/48px-Seismic_Impact.png"
+    ]
+  },
+  {
+    "name": "Bebop",
+    "title": "Hooks an enemy for a knockout combo",
+    "description": "Bebop can string together his abilities in many different ways. Disrupting enemy positions, saving an ally or dealing bursts of damage. When the situation doesn't require subtlety his giant laser still solves problems.",
+    "images": [
+      "/images/thumb/1/13/Bebop_Render.png/256px-Bebop_Render.png",
+      "/images/thumb/4/49/Bebop_card.png/264px-Bebop_card.png"
+    ],
+    "skills": [
+      "/images/thumb/3/30/Exploding_Uppercut.png/48px-Exploding_Uppercut.png",
+      "/images/thumb/7/74/Sticky_Bomb.png/48px-Sticky_Bomb.png",
+      "/images/thumb/4/47/Hook.png/48px-Hook.png",
+      "/images/thumb/b/bd/Hyper_Beam.png/48px-Hyper_Beam.png"
+    ]
+  },
+  {
+    "name": "Dynamo",
+    "title": "Locks down the enemy team",
+    "description": "Dynamo keeps himself and his allies healthy while waiting for his moment. Few things can warp a team fight more than a well-coordinated use of Singularity.",
+    "images": [
+      "/images/thumb/d/d7/Dynamo_Render.png/256px-Dynamo_Render.png",
+      "/images/thumb/7/70/Dynamo_card.png/264px-Dynamo_card.png"
+    ],
+    "skills": [
+      "/images/thumb/2/27/Kinetic_Pulse.png/48px-Kinetic_Pulse.png",
+      "/images/thumb/c/ce/Quantum_Entanglement.png/48px-Quantum_Entanglement.png",
+      "/images/thumb/d/dd/Rejuvenating_Aurora.png/48px-Rejuvenating_Aurora.png",
+      "/images/thumb/d/d0/Singularity.png/48px-Singularity.png"
+    ]
+  },
+  {
+    "name": "Grey Talon",
+    "title": "Delivers long range skill-shots",
+    "description": "A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents.",
+    "images": [
+      "/images/thumb/6/6e/Grey_Talon_Render.png/256px-Grey_Talon_Render.png",
+      "/images/thumb/5/5a/Grey_Talon_card.png/264px-Grey_Talon_card.png"
+    ],
+    "skills": [
+      "/images/thumb/7/7e/Charged_Shot.png/48px-Charged_Shot.png",
+      "/images/thumb/1/1e/Rain_of_Arrows.png/48px-Rain_of_Arrows.png",
+      "/images/thumb/8/88/Immobilizing_Trap.png/48px-Immobilizing_Trap.png",
+      "/images/thumb/e/e7/Guided_Owl.png/48px-Guided_Owl.png"
+    ]
+  },
+  {
+    "name": "Haze",
+    "title": "Sneaks in and sprays bullets",
+    "description": "When Haze fixates on a target she can hold her own in a firefight. She prefers to create one-sided exchanges, avoiding damage then picking off unsuspecting targets up close.",
+    "images": [
+      "/images/thumb/b/b8/Haze_Render.png/256px-Haze_Render.png",
+      "/images/thumb/1/1b/Haze_card.png/264px-Haze_card.png"
+    ],
+    "skills": [
+      "/images/thumb/1/14/Sleep_Dagger.png/48px-Sleep_Dagger.png",
+      "/images/thumb/e/eb/Smoke_Bomb.png/48px-Smoke_Bomb.png",
+      "/images/thumb/6/63/Fixation.png/48px-Fixation.png",
+      "/images/thumb/7/7d/Bullet_Dance.png/48px-Bullet_Dance.png"
+    ]
+  },
+  {
+    "name": "Infernus",
+    "title": "Lights up enemies and watches them burn",
+    "description": "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus’s blazing speed, his enemies won’t be able to escape the flames.",
+    "images": [
+      "/images/thumb/e/e6/Infernus_Render.png/256px-Infernus_Render.png",
+      "/images/thumb/6/6b/Infernus_card.png/264px-Infernus_card.png"
+    ],
+    "skills": [
+      "/images/thumb/b/b2/Catalyst.png/48px-Catalyst.png",
+      "/images/thumb/2/22/Flame_Dash.png/48px-Flame_Dash.png",
+      "/images/thumb/6/64/Afterburn.png/48px-Afterburn.png",
+      "/images/thumb/a/a7/Concussive_Combustion.png/48px-Concussive_Combustion.png"
+    ]
+  },
+  {
+    "name": "Ivy",
+    "title": "Sets up a power duo with a lucky ally",
+    "description": "Ivy has disruptive combat tricks that slow and stun enemies. She’s most effective when linking up with an ally, empowering her and her ally’s guns as well as sharing heals.",
+    "images": [
+      "/images/thumb/6/65/Ivy_Render.png/256px-Ivy_Render.png",
+      "/images/thumb/2/2c/Ivy_card.png/264px-Ivy_card.png"
+    ],
+    "skills": [
+      "/images/thumb/8/83/Kudzu_Bomb.png/48px-Kudzu_Bomb.png",
+      "/images/thumb/b/be/Watcher%27s_Covenant.png/48px-Watcher%27s_Covenant.png",
+      "/images/thumb/f/f8/Stone_Form.png/48px-Stone_Form.png",
+      "/images/thumb/c/c4/Air_Drop.png/48px-Air_Drop.png"
+    ]
+  },
+  {
+    "name": "Kelvin",
+    "title": "Freezes enemies in their tracks",
+    "description": "Timely heals and splitting a teamfight properly is the difference between an easy victory or a ruinous defeat. Gliding around slowing enemies gives Kelvin’s team the maneuvering advantage to make this happen.",
+    "images": [
+      "/images/thumb/1/14/Kelvin_Render.png/256px-Kelvin_Render.png",
+      "/images/thumb/7/76/Kelvin_card.png/264px-Kelvin_card.png"
+    ],
+    "skills": [
+      "/images/thumb/5/5d/Frost_Grenade.png/48px-Frost_Grenade.png",
+      "/images/thumb/d/dc/Ice_Path.png/48px-Ice_Path.png",
+      "/images/thumb/f/f1/Arctic_Beam.png/48px-Arctic_Beam.png",
+      "/images/thumb/e/ea/Frozen_Shelter.png/48px-Frozen_Shelter.png"
+    ]
+  },
+  {
+    "name": "Lady Geist",
+    "title": "Sacrifices health then drains it back",
+    "description": "Expending health to achieve devastating effects is the source of Lady Geist’s power. When running low, she can drain the life out of her rivals.",
+    "images": [
+      "/images/thumb/2/2c/Lady_Geist_Render.png/256px-Lady_Geist_Render.png",
+      "/images/thumb/e/e8/Lady_Geist_card.png/264px-Lady_Geist_card.png"
+    ],
+    "skills": [
+      "/images/thumb/0/0e/Essence_Bomb.png/48px-Essence_Bomb.png",
+      "/images/thumb/2/26/Life_Drain.png/48px-Life_Drain.png",
+      "/images/thumb/d/d4/Malice.png/48px-Malice.png",
+      "/images/thumb/9/9e/Soul_Exchange.png/48px-Soul_Exchange.png"
+    ]
+  },
+  {
+    "name": "Lash",
+    "title": "Dives down to stomp his foes",
+    "description": "Lash gives his enemies little room to breathe, either by flying in from long distances to initiate combat with unsuspecting enemies, or pursuing said enemies when they try to run.",
+    "images": [
+      "/images/thumb/9/9d/Lash_Render.png/256px-Lash_Render.png",
+      "/images/thumb/5/5a/Lash_card.png/264px-Lash_card.png"
+    ],
+    "skills": [
+      "/images/thumb/9/94/Ground_Strike.png/48px-Ground_Strike.png",
+      "/images/thumb/c/c7/Grapple.png/48px-Grapple.png",
+      "/images/thumb/d/d4/Flog.png/48px-Flog.png",
+      "/images/thumb/8/80/Death_Slam.png/48px-Death_Slam.png"
+    ]
+  },
+  {
+    "name": "McGinnis",
+    "title": "Controls the battle with combat turrets",
+    "description": "Precise placement is everything for McGinnis, whether she's creating a killzone or splitting the enemy team. She can help keep her team running making them hard to dislodge when entrenched.",
+    "images": [
+      "/images/thumb/7/78/McGinnis_Render.png/256px-McGinnis_Render.png",
+      "/images/thumb/5/55/McGinnis_card.png/264px-McGinnis_card.png"
+    ],
+    "skills": [
+      "/images/thumb/4/4c/Mini_Turret.png/48px-Mini_Turret.png",
+      "/images/thumb/5/5d/Medicinal_Specter.png/48px-Medicinal_Specter.png",
+      "/images/thumb/e/e9/Spectral_Wall.png/48px-Spectral_Wall.png",
+      "/images/thumb/c/cc/Heavy_Barrage.png/48px-Heavy_Barrage.png"
+    ]
+  },
+  {
+    "name": "Mo & Krill",
+    "title": "Burrows underneath his enemies",
+    "description": "By burrowing through the ground, Mo and Krill can get the drop on almost anyone; and once they get in close the results can be devastating.",
+    "images": [
+      "/images/thumb/a/a4/Mo_%26_Krill_Render.png/256px-Mo_%26_Krill_Render.png",
+      "/images/thumb/a/a1/Mo_%26_Krill_card.png/264px-Mo_%26_Krill_card.png"
+    ],
+    "skills": [
+      "/images/thumb/e/ee/Scorn.png/48px-Scorn.png",
+      "/images/thumb/2/21/Burrow.png/48px-Burrow.png",
+      "/images/thumb/7/72/Sand_Blast.png/48px-Sand_Blast.png",
+      "/images/thumb/1/1a/Combo.png/48px-Combo.png"
+    ]
+  },
+  {
+    "name": "Paradox",
+    "title": "Manipulates Space and Time",
+    "description": "Manipulating time lets Paradox outpace an enemy in one on one combat. She thrives by subjecting her enemies to timely swaps into a waiting pulse grenade, her wall, or into the middle of her teammates.",
+    "images": [
+      "/images/thumb/8/8a/Paradox_Render.png/256px-Paradox_Render.png",
+      "/images/thumb/0/08/Paradox_card.png/264px-Paradox_card.png"
+    ],
+    "skills": [
+      "/images/thumb/7/70/Pulse_Grenade.png/48px-Pulse_Grenade.png",
+      "/images/thumb/8/8b/Time_Wall.png/48px-Time_Wall.png",
+      "/images/thumb/0/07/Kinetic_Carbine.png/48px-Kinetic_Carbine.png",
+      "/images/thumb/0/06/Paradoxical_Swap.png/48px-Paradoxical_Swap.png"
+    ]
+  },
+  {
+    "name": "Pocket",
+    "title": "Infiltrates and disrupts the backline",
+    "description": "With a powerful shotgun and a thin frame, Pocket relies on their ability to briefly escape into a mystic suitcase and teleport via a flying cloak in order to survive close encounters.",
+    "images": [
+      "/images/thumb/c/c9/Pocket_Render.png/256px-Pocket_Render.png",
+      "/images/thumb/0/06/Pocket_card.png/264px-Pocket_card.png"
+    ],
+    "skills": [
+      "/images/thumb/2/2c/Barrage.png/48px-Barrage.png",
+      "/images/thumb/d/d5/Flying_Cloak.png/48px-Flying_Cloak.png",
+      "/images/thumb/c/ce/Enchanter%27s_Satchel.png/48px-Enchanter%27s_Satchel.png",
+      "/images/thumb/3/35/Affliction.png/48px-Affliction.png"
+    ]
+  },
+  {
+    "name": "Seven",
+    "title": "Electrocutes crowds of enemies",
+    "description": "Seven thrives in a skirmish waiting for the time to strike. Then he rolls into the fight like a storm and batters his enemies with a cascade of lightning.",
+    "images": [
+      "/images/thumb/3/31/Seven_Render.png/256px-Seven_Render.png",
+      "/images/thumb/c/cf/Seven_card.png/264px-Seven_card.png"
+    ],
+    "skills": [
+      "/images/thumb/4/41/Lightning_Ball.png/48px-Lightning_Ball.png",
+      "/images/thumb/a/a8/Static_Charge.png/48px-Static_Charge.png",
+      "/images/thumb/f/f1/Power_Surge.png/48px-Power_Surge.png",
+      "/images/thumb/3/38/Storm_Cloud.png/48px-Storm_Cloud.png"
+    ]
+  },
+  {
+    "name": "Shiv",
+    "title": "Bleeds out enemies, then goes in for a kill",
+    "description": "Shiv has zero interest in playing fair, which is why he relies on hit and run tactics to weaken enemies before he dives in for the kill.",
+    "images": [
+      "/images/thumb/0/01/Shiv_Render.png/256px-Shiv_Render.png",
+      "/images/thumb/b/b8/Shiv_card.png/264px-Shiv_card.png"
+    ],
+    "skills": [
+      "/images/thumb/7/7c/Serrated_Knives.png/48px-Serrated_Knives.png",
+      "/images/thumb/7/76/Slice_and_Dice.png/48px-Slice_and_Dice.png",
+      "/images/thumb/f/ff/Bloodletting.png/48px-Bloodletting.png",
+      "/images/thumb/6/6e/Killing_Blow.png/48px-Killing_Blow.png"
+    ]
+  },
+  {
+    "name": "Vindicta",
+    "title": "Snipes the unsuspecting",
+    "description": "Vindicta has the mobility to engage at her leisure, picking at her prey and bleeding them out slowly. Injured enemies at any distance should fear being picked off when she is on the map.",
+    "images": [
+      "/images/thumb/c/c1/Vindicta_Render.png/256px-Vindicta_Render.png",
+      "/images/thumb/6/69/Vindicta_card.png/264px-Vindicta_card.png"
+    ],
+    "skills": [
+      "/images/thumb/6/65/Stake.png/48px-Stake.png",
+      "/images/thumb/1/1e/Flight.png/48px-Flight.png",
+      "/images/thumb/f/f5/Crow_Familiar.png/48px-Crow_Familiar.png",
+      "/images/thumb/3/34/Assassinate.png/48px-Assassinate.png"
+    ]
+  },
+  {
+    "name": "Viscous",
+    "title": "Rolls around deflecting bullets",
+    "description": "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks.",
+    "images": [
+      "/images/thumb/c/c2/Viscous_Render.png/256px-Viscous_Render.png",
+      "/images/thumb/5/53/Viscous_card.png/264px-Viscous_card.png"
+    ],
+    "skills": [
+      "/images/thumb/6/67/Splatter.png/48px-Splatter.png",
+      "/images/thumb/9/9a/The_Cube.png/48px-The_Cube.png",
+      "/images/thumb/4/4f/Puddle_Punch.png/48px-Puddle_Punch.png",
+      "/images/thumb/c/c7/Goo_Ball.png/48px-Goo_Ball.png"
+    ]
+  },
+  {
+    "name": "Warden",
+    "title": "Weakens his enemies and chases them down",
+    "description": "Warden leads from the front, jumping into the fray and hindering his opponents’ ability to fight effectively. But what Warden considers brave, others consider reckless, and if he’s not careful he can easily find himself in over his head.",
+    "images": [
+      "/images/thumb/9/94/Warden_Render.png/256px-Warden_Render.png",
+      "/images/thumb/1/10/Warden_card.png/264px-Warden_card.png"
+    ],
+    "skills": [
+      "/images/thumb/5/5c/Alchemical_Flask.png/48px-Alchemical_Flask.png",
+      "/images/thumb/8/88/Willpower.png/48px-Willpower.png",
+      "/images/thumb/8/87/Binding_Word.png/48px-Binding_Word.png",
+      "/images/thumb/4/41/Last_Stand.png/48px-Last_Stand.png"
+    ]
+  },
+  {
+    "name": "Wraith",
+    "title": "Melts isolated targets",
+    "description": "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. then teleporting away before anyone can retaliate.",
+    "images": [
+      "/images/thumb/9/97/Wraith_Render.png/256px-Wraith_Render.png",
+      "/images/thumb/8/85/Wraith_card.png/264px-Wraith_card.png"
+    ],
+    "skills": [
+      "/images/thumb/c/c3/Card_Trick.png/48px-Card_Trick.png",
+      "/images/thumb/b/b3/Project_Mind.png/48px-Project_Mind.png",
+      "/images/thumb/2/29/Full_Auto.png/48px-Full_Auto.png",
+      "/images/thumb/6/6f/Telekinesis.png/48px-Telekinesis.png"
+    ]
+  },
+  {
+    "name": "Yamato",
+    "title": "Delivers charged attacks with finesse",
+    "description": "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count.",
+    "images": [
+      "/images/thumb/0/0a/Yamato_Render.png/256px-Yamato_Render.png",
+      "/images/thumb/2/2b/Yamato_card.png/264px-Yamato_card.png"
+    ],
+    "skills": [
+      "/images/thumb/a/a7/Power_Slash.png/48px-Power_Slash.png",
+      "/images/thumb/e/eb/Flying_Strike.png/48px-Flying_Strike.png",
+      "/images/thumb/6/69/Crimson_Slash.png/48px-Crimson_Slash.png",
+      "/images/thumb/3/3f/Shadow_Transformation.png/48px-Shadow_Transformation.png"
+    ]
+  }
+]

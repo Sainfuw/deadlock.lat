@@ -57,6 +57,9 @@ export const getItems = defineAction({
       }
     })
 
-    return result.filter((item) => item !== undefined)
+    const filteredResult = result.filter((item) => item !== undefined)
+    // await fs.writeFile('src/data/items.json', JSON.stringify(filteredResult))
+
+    return filteredResult
   },
 })

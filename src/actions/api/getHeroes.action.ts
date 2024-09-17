@@ -58,6 +58,8 @@ export const getHeroes = defineAction({
       .flat()
       .filter((item: string) => item !== undefined)
 
+    // fs.writeFile('src/data/heroes.json', JSON.stringify(result))
+
     return result
   },
 })
