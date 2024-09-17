@@ -7,6 +7,21 @@ import { SectionTabs } from './atoms/SectionTabs'
 
 import heroes from '@/data/heroes.json'
 import items from '@/data/items.json'
+
+const groupByType = items.reduce((acc: any, item) => {
+  acc[item.type] = [...(acc[item.type] || []), item]
+  return acc
+}, {})
+
+for (const type in groupByType) {
+  const groupByPrice = groupByType[type].reduce((acc: any, item) => {
+    acc[item.price] = [...(acc[item.price] || []), item]
+    return acc
+  }, {})
+  groupByType[type] = groupByPrice
+}
+
+console.log(groupByType)
 ---
 
 <main class='py-8 flex-grow'>

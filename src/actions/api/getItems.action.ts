@@ -47,7 +47,7 @@ export const getItems = defineAction({
         name: t0![0],
         type: t0![3],
         power: t0![1],
-        price: t0![2].trim(),
+        price: +t0![2].trim(),
         components: t1,
         description: t2,
         stats: t3,
