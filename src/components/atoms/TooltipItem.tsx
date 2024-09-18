@@ -39,7 +39,15 @@ export const TooltipItem = ({ item }: Props) => {
           </Card>
         </TooltipTrigger>
         <TooltipContent>
-          <p>{item.description}</p>
+          <div className='flex flex-col max-w-60'>
+            <h3 className='text-xl'>{item.name}</h3>
+            <p>{item.power}</p>
+            <p>{item.stats}</p>
+            <p>{item.description}</p>
+            <p>{item.components}</p>
+            <p>{item.hasPassive}</p>
+            <p>{item.passives}</p>
+          </div>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
