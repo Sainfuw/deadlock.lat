@@ -9,8 +9,10 @@
         "components": [],
         "description": [],
         "stats": ["+24% Ammo", "+15% Weapon Damage"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/5/54/Basic_Magazine.png/64px-Basic_Magazine.png"
       },
       {
@@ -21,12 +23,14 @@
         "components": [],
         "description": [],
         "stats": ["+85 Bullet Shield Health"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Deal additional Weapon Damage when in close range to your target.",
-          "+25% Weapon Damage Conditional: Close Range",
+          "+25% Weapon Damage Conditional",
           "Condition: 15m Close Range"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/43/Close_Quarters.png/64px-Close_Quarters.png"
       },
       {
@@ -37,11 +41,13 @@
         "components": [],
         "description": [],
         "stats": ["+5% Fire Rate", "+40 Bullet Shield Health"],
-        "hasPassive": ["Passive", "7.5s"],
+        "hasPassives": ["Passive", "7.5s"],
         "passives": [
           "Deal bonus Weapon Damage with headshots",
           "+40 Head Shot Bonus Damage"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/a/ac/Headshot_Booster.png/64px-Headshot_Booster.png"
       },
       {
@@ -56,8 +62,10 @@
           "+12% Weapon Damage",
           "+50 Bullet Shield Health"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/6/6a/High-Velocity_Mag.png/64px-High-Velocity_Mag.png"
       },
       {
@@ -68,11 +76,13 @@
         "components": [],
         "description": [],
         "stats": ["+85 Spirit Shield Health", "+4 Spirit Power"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "When you are above 60% health, deal additional Weapon Damage.",
-          "+22% Weapon Damage (Conditional)"
+          "+22% Weapon Damage Conditional"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/7/73/Hollow_Point_Ward.png/64px-Hollow_Point_Ward.png"
       },
       {
@@ -88,8 +98,10 @@
           "+50 Bonus Health",
           "+1 Health Regen"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/f/f8/Monster_Rounds.png/64px-Monster_Rounds.png"
       },
       {
@@ -100,8 +112,10 @@
         "components": [],
         "description": [],
         "stats": ["+9% Fire Rate", "+1m/s Sprint Speed"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/6/6e/Rapid_Rounds.png/64px-Rapid_Rounds.png"
       },
       {
@@ -112,12 +126,14 @@
         "components": [],
         "description": [],
         "stats": ["+7% Bullet Resist", "+8% Weapon Damage"],
-        "hasPassive": ["Passive", "6s"],
+        "hasPassives": ["Passive", "6.2s"],
         "passives": [
           "Your next bullet will heal you based on what target you hit.",
           "40 Healing from Heroes",
           "15 Healing from NPCs"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/4c/Restorative_Shot.png/64px-Restorative_Shot.png"
       }
     ],
@@ -130,13 +146,15 @@
         "components": [],
         "description": [],
         "stats": ["+10% Weapon Damage", "-20% Reload Time"],
-        "hasPassive": ["Passive", "17s"],
+        "hasPassives": ["Passive", "18s"],
         "passives": [
           "Passive: While reloading, pressing [R] during the highlighted portion will instantly finish your reload and grant you Fire Rate and Bullet Lifesteal.",
-          "+20% Fire Rate",
-          "+20% Bullet Lifesteal",
+          "+20% Fire Rate (Conditional)",
+          "+20% Bullet Lifesteal (Conditional)",
           "7s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/b/b4/Active_Reload.png/64px-Active_Reload.png"
       },
       {
@@ -147,14 +165,16 @@
         "components": [],
         "description": [],
         "stats": ["+4 Ammo", "+7% Bullet Resist"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Your Weapon Damage increases as you take sustained damage.",
           "+5% Weapon Damage per Stack",
           "110 Damage taken to Stack",
           "10 Max Stacks",
-          "10 Duration"
+          "10s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/a/a8/Berserker.png/64px-Berserker.png"
       },
       {
@@ -165,13 +185,15 @@
         "components": [],
         "description": [],
         "stats": ["+100 Bonus Health", "+1.5 Health Regen"],
-        "hasPassive": ["Passive", "10s"],
+        "hasPassives": ["Passive", "10.5s"],
         "passives": [
           "Your next Dash-Jump does not cost an extra stamina and you gain Fire Rate and bonus Ammo until your next reload. Lasts up to 8s.",
           "+25% Fire Rate",
           "+5 Temporary Ammo",
           "8s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/3/3e/Kinetic_Dash.png/64px-Kinetic_Dash.png"
       },
       {
@@ -182,12 +204,14 @@
         "components": [],
         "description": [],
         "stats": ["+20% Ammo", "+140 Bullet Shield Health"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
-          "Deal additional Weapon Damage when beyond a minimum distance from your target. 15m.",
-          "+40% Weapon Damage",
-          "Conditional, 15m Minimum Distance"
+          "Deal additional Weapon Damage when beyond a minimum distance from your target.",
+          "+40% Weapon Damage (Conditional)",
+          "15m Minimum Distance"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/0/0a/Long_Range.png/64px-Long_Range.png"
       },
       {
@@ -197,11 +221,19 @@
         "price": 1250,
         "components": [],
         "description": [],
-        "stats": ["+15% Weapon Damage", "+100 Bonus Health", "+1 Health Regen"],
-        "hasPassive": ["Passive", "8s"],
-        "passives": [
-          "Increases your Heavy Melee charge distance. When you perform a Heavy Melee attack against an enemy, your weapon reloads instantly."
+        "stats": [
+          "+15% Weapon Damage",
+          "+100 Bonus Health",
+          "+1 Health Regen",
+          "40% Heavy Melee Distance"
         ],
+        "hasPassives": ["Passive", "8.5s"],
+        "passives": [
+          "Increases your Heavy Melee charge distance. When you perform a Heavy Melee attack against an enemy, your weapon reloads instantly.",
+          "+20% Bonus Heavy Melee Damage"
+        ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/e/ea/Melee_Charge.png/64px-Melee_Charge.png"
       },
       {
@@ -212,11 +244,13 @@
         "components": [],
         "description": [],
         "stats": ["+12% Weapon Damage", "+4 Spirit Power"],
-        "hasPassive": ["Passive", "5s"],
+        "hasPassives": ["Passive", "5.2s"],
         "passives": [
           "Your next bullet deals bonus Spirit Damage",
           "+65 Spirit Damage"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/5/5a/Mystic_Shot.png/64px-Mystic_Shot.png"
       },
       {
@@ -227,13 +261,14 @@
         "components": [],
         "description": [],
         "stats": ["+16% Weapon Damage", "+5 Spirit Power"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Your bullets apply Movement Slow",
-          "25% Movement Slow",
-          "(Conditional)",
+          "25% Movement Slow (Conditional)",
           "1.3s Slow Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/d/db/Slowing_Bullets.png/64px-Slowing_Bullets.png"
       },
       {
@@ -244,13 +279,15 @@
         "components": [],
         "description": [],
         "stats": ["+7% Weapon Damage"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Your Bullets apply a debuff that amplifies your Spirit Damage against the target and grants you Spirit Lifesteal against them",
-          "10% Spirit Amp",
-          "+20% Lifesteal",
+          "10% Spirit Amp (Conditional)",
+          "+20% Lifesteal (Conditional)",
           "6s Debuff Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/cb/Soul_Shredder_Bullets.png/64px-Soul_Shredder_Bullets.png"
       },
       {
@@ -260,9 +297,11 @@
         "price": 1250,
         "components": [],
         "description": [],
-        "stats": ["+22% Fire Rate", "-5% Bullet Resist", "+10% Ammo"],
-        "hasPassive": [],
+        "stats": ["+22% Fire Rate", "+10% Ammo", "-5% Bullet Resist"],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/e/e4/Swift_Striker.png/64px-Swift_Striker.png"
       },
       {
@@ -273,8 +312,10 @@
         "components": [],
         "description": [],
         "stats": ["+90 Bonus Health", "+25% Slide Distance"],
-        "hasPassive": ["Passive", "None"],
+        "hasPassives": ["Passive", "None"],
         "passives": ["Removes the Movement Speed penalty while shooting."],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/cf/Fleetfoot.png/64px-Fleetfoot.png"
       }
     ],
@@ -287,8 +328,10 @@
         "components": ["Components:   Basic Magazine"],
         "description": [],
         "stats": ["+100% Ammo", "+18% Weapon Damage", "+18% Bullet Resist"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/d/d8/Titanic_Magazine.png/64px-Titanic_Magazine.png"
       },
       {
@@ -299,7 +342,7 @@
         "components": [],
         "description": [],
         "stats": ["+100 Bonus Health"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Your bullets build up a Bleed on enemies, causing them to lose a percentage of their current health over time. Also applies Healing Reduction on the bleeding target.",
           "5%/sec Bleed Damage",
@@ -307,6 +350,8 @@
           "3s Duration",
           "10.3% Buildup Per Shot"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/f/f0/Toxic_Bullets.png/64px-Toxic_Bullets.png"
       },
       {
@@ -321,8 +366,10 @@
           "+14% Weapon Damage",
           "+11 Spirit Power"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/f/fc/Alchemical_Fire.png/64px-Alchemical_Fire.png"
       },
       {
@@ -337,13 +384,15 @@
           "+150 Bonus Health",
           "+1m/s Move Speed"
         ],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Provides Fire Rate to nearby player minions.",
           "+40% Minions Fire Rate",
           "(Conditional)",
           "20m Radius"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/6/60/Heroic_Aura.png/64px-Heroic_Aura.png"
       },
       {
@@ -354,8 +403,10 @@
         "components": [],
         "description": [],
         "stats": ["+20% Weapon Damage", "+8 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/4f/Warp_Stone.png/64px-Warp_Stone.png"
       }
     ],
@@ -368,8 +419,10 @@
         "components": ["Components:   Slowing Bullets"],
         "description": [],
         "stats": ["+25% Bullet Slow Proc", "+20% Weapon Damage"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/43/Silencer.png/64px-Silencer.png"
       },
       {
@@ -380,8 +433,10 @@
         "components": [],
         "description": [],
         "stats": ["2m/s Move Speed", "+25% Weapon Damage", "+150 Bonus Health"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/d/dc/Vampiric_Burst.png/64px-Vampiric_Burst.png"
       }
     ]
@@ -400,8 +455,10 @@
           "+10% Spirit Lifesteal",
           "+4 Spirit Power"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/8/80/Enduring_Spirit.png/64px-Enduring_Spirit.png"
       },
       {
@@ -412,8 +469,10 @@
         "components": [],
         "description": [],
         "stats": ["+160 Bonus Health", "+5% Weapon Damage"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/6/69/Extra_Health.png/64px-Extra_Health.png"
       },
       {
@@ -424,8 +483,10 @@
         "components": [],
         "description": [],
         "stats": ["+2.8 Health Regen", "+8% Ammo", "+25 Bonus Health"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/6/60/Extra_Regen.png/64px-Extra_Regen.png"
       },
       {
@@ -436,8 +497,10 @@
         "components": [],
         "description": [],
         "stats": ["+1 Stamina", "+10% Stamina Recovery", "+7% Fire Rate"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/2/28/Extra_Stamina.png/64px-Extra_Stamina.png"
       },
       {
@@ -448,10 +511,12 @@
         "components": [],
         "description": [],
         "stats": ["+13% Melee Damage", "+75 Bonus Health"],
-        "hasPassive": ["Passive", "7s"],
+        "hasPassives": ["Passive", "7s"],
         "passives": [
           "Your melee attacks heal you for 20% of the Melee Damage dealt plus 90. This heal is 40% effective vs non-heroes."
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/2/24/Melee_Lifesteal.png/64px-Melee_Lifesteal.png"
       },
       {
@@ -462,8 +527,10 @@
         "components": [],
         "description": [],
         "stats": ["+2m/s Sprint Speed", "+1 Health Regen", "+4% Weapon Damage"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/d/da/Sprint_Boots.png/64px-Sprint_Boots.png"
       },
       {
@@ -474,8 +541,10 @@
         "components": [],
         "description": [],
         "stats": ["+45 Bonus Health", "+3 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/7/72/Healing_Rite.png/64px-Healing_Rite.png"
       }
     ],
@@ -493,11 +562,13 @@
           "+75 Bonus Health",
           "+1.5 Health Regen"
         ],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Reduces the effects of enemy Movement Slow",
           "+40% Movement Slow Resist"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/cd/Enduring_Speed.png/64px-Enduring_Speed.png"
       },
       {
@@ -508,7 +579,7 @@
         "components": [],
         "description": [],
         "stats": ["+75 Bonus Health"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Your Spirit Damage applies Healing Reduction. If an enemy hero dies under this effect, you receive a large heal.",
           "40% Healing Reduction",
@@ -516,6 +587,8 @@
           "350 Heal on Hero Kill",
           "6s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/6/62/Healbane.png/64px-Healbane.png"
       },
       {
@@ -526,12 +599,14 @@
         "components": [],
         "description": [],
         "stats": ["+6% Spirit Resist", "+2 Health Regen"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Increases the effectiveness of your Healing and increases your resistance to healing reduction.",
           "+25% Healing Effectiveness",
           "+15% Heal Reduction Resistance"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/b/b0/Healing_Booster.png/64px-Healing_Booster.png"
       },
       {
@@ -542,7 +617,7 @@
         "components": [],
         "description": [],
         "stats": ["+15% Ammo", "+75 Bonus Health", "+2 Health Regen"],
-        "hasPassive": ["Passive", "30s"],
+        "hasPassives": ["Passive", "30s"],
         "passives": [
           "Automatically deploy temporary Bullet and Spirit Shields when you are movement locked, Stunned, Chained, Immobilized, or Slept.",
           "400 Bullet Shield Health",
@@ -551,6 +626,8 @@
           "(Conditional)",
           "9s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/f/f2/Reactive_Barrier.png/64px-Reactive_Barrier.png"
       },
       {
@@ -561,8 +638,10 @@
         "components": [],
         "description": [],
         "stats": ["+20% Spirit Resist", "+5 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/a/ac/Spirit_Armor.png/64px-Spirit_Armor.png"
       },
       {
@@ -573,8 +652,10 @@
         "components": [],
         "description": [],
         "stats": ["+23% Spirit Lifesteal", "+75 Bonus Health"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/d/d9/Spirit_Lifesteal_%28item%29.png/64px-Spirit_Lifesteal_%28item%29.png"
       },
       {
@@ -585,8 +666,10 @@
         "components": [],
         "description": [],
         "stats": ["+1m/s Sprint Speed", "+75 Health", "+8% Ability Range"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/7/74/Divine_Barrier.png/64px-Divine_Barrier.png"
       },
       {
@@ -597,8 +680,10 @@
         "components": ["Components:   Healing Rite"],
         "description": [],
         "stats": ["+10% Weapon Damage", "+100 Bonus Health", "+4 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/b/b7/Health_Nova.png/64px-Health_Nova.png"
       },
       {
@@ -609,10 +694,12 @@
         "components": [],
         "description": [],
         "stats": ["+8% Spirit Resist", "+5 Spirit Power"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "When an enemy uses an ability within 50m range from you, store one Restoration Stack."
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/0/07/Restorative_Locket.png/64px-Restorative_Locket.png"
       },
       {
@@ -623,8 +710,10 @@
         "components": [],
         "description": [],
         "stats": ["+125 Bonus Health", "+7 Spirit Power", "+7% Fire Rate"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/7/7c/Return_Fire.png/64px-Return_Fire.png"
       }
     ],
@@ -637,8 +726,10 @@
         "components": ["Components:   Healing Rite"],
         "description": [],
         "stats": ["+125 Bonus Health", "+2m/s Sprint Speed", "+9 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/c2/Rescue_Beam.png/64px-Rescue_Beam.png"
       }
     ],
@@ -651,13 +742,15 @@
         "components": [],
         "description": [],
         "stats": ["+25% Weapon Damage", "+175 Bonus Health"],
-        "hasPassive": ["Passive", "{{{passive1_cooldown}}}"],
+        "hasPassives": ["Passive", "{{{passive1_cooldown}}}"],
         "passives": [
           "Your bullets apply Movement Slow and reduce the target's outgoing damage on hit.",
           "25% Movement Slow (Conditional)",
           "-35% Damage Penalty (Conditional)",
           "2.5s Debuff Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/9/99/Inhibitor.png/64px-Inhibitor.png"
       },
       {
@@ -674,8 +767,10 @@
           "+12 Spirit Power",
           "+15% Weapon Damage"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/3/32/Leech.png/64px-Leech.png"
       },
       {
@@ -690,11 +785,13 @@
           "+20% Weapon Damage",
           "+12 Spirit Power"
         ],
-        "hasPassive": ["Passive", "200s"],
+        "hasPassives": ["Passive", "200s"],
         "passives": [
           "If you die, after 4s you will respawn at your death location with partial health.",
           "+50% Rebirth Health"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/c3/Soul_Rebirth.png/64px-Soul_Rebirth.png"
       },
       {
@@ -709,8 +806,10 @@
           "+20% Melee Damage",
           "+20% Weapon Damage"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/b/bb/Colossus.png/64px-Colossus.png"
       },
       {
@@ -721,8 +820,10 @@
         "components": [],
         "description": [],
         "stats": ["+15% Bullet Resist", "+30% Weapon Damage"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/e/e6/Phantom_Strike.png/64px-Phantom_Strike.png"
       },
       {
@@ -733,8 +834,10 @@
         "components": [],
         "description": [],
         "stats": ["+15 Health Regen", "+300 Spirit Shield Health", "+30% Ammo"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/4e/Shadow_Weave.png/64px-Shadow_Weave.png"
       },
       {
@@ -750,8 +853,10 @@
           "+1m/s Move Speed",
           "+12 Spirit Power"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/e/eb/Unstoppable.png/64px-Unstoppable.png"
       }
     ]
@@ -766,7 +871,7 @@
         "components": [],
         "description": [],
         "stats": ["+15% Ammo", "+60 Bonus Health"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Any time you secure or deny a Soul you get ammo back and gain stacking Spirit Power",
           "2 Ammo Per Soul",
@@ -774,6 +879,8 @@
           "35s Spirit Power Duration",
           "12 Max Stacks"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/2/2b/Ammo_Scavenger.png/64px-Ammo_Scavenger.png"
       },
       {
@@ -788,8 +895,10 @@
           "+10% Cooldown Reduction for Charged Abilities",
           "+6% Weapon Damage"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/4a/Extra_Charge.png/64px-Extra_Charge.png"
       },
       {
@@ -800,8 +909,10 @@
         "components": [],
         "description": [],
         "stats": ["+9 Spirit Power", "+1 Health Regen", "+35 Bonus Health"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/9/94/Extra_Spirit.png/64px-Extra_Spirit.png"
       },
       {
@@ -812,11 +923,13 @@
         "components": [],
         "description": [],
         "stats": ["+40 Spirit Shield Health", "+6% Weapon Damage"],
-        "hasPassive": ["Passive", "6s"],
+        "hasPassives": ["Passive", "6s"],
         "passives": [
           "Abilities deal bonus Spirit Damage if they deal 80 damage or more in a single hit.",
           "35 Bonus Damage"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/9/95/Mystic_Burst.png/64px-Mystic_Burst.png"
       },
       {
@@ -829,8 +942,10 @@
           "Increases the range and effect radius of your abilities and items."
         ],
         "stats": ["+16% Ability Range", "+6% Spirit Resist"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/0/03/Mystic_Reach.png/64px-Mystic_Reach.png"
       },
       {
@@ -845,13 +960,15 @@
           "+0.8 Health Regen",
           "+12% Melee Damage"
         ],
-        "hasPassive": ["Passive", "8.5s"],
+        "hasPassives": ["Passive", "8.5s"],
         "passives": [
           "When you perform a Light or Heavy Melee attack against a hero, deal Extra Spirit Damage with the attack and reduce the target's Spirit Resist",
           "x Spirit Damage (adjusted by Spirit Power)",
           "-12% Spirit Resist",
           "11s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/7/7c/Spirit_Strike.png/64px-Spirit_Strike.png"
       },
       {
@@ -862,8 +979,10 @@
         "components": [],
         "description": [],
         "stats": ["+50 Bonus Health", "+10% Ammo"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/c3/Infuser.png/64px-Infuser.png"
       }
     ],
@@ -876,12 +995,14 @@
         "components": [],
         "description": [],
         "stats": ["+100 Bonus Health", "+5% Bullet Resist"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Reduces Bullet Resist on enemies when you deal Spirit Damage.",
           "-12% Bullet Resist",
           "8s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/7/7d/Bullet_Resist_Shredder.png/64px-Bullet_Resist_Shredder.png"
       },
       {
@@ -896,8 +1017,10 @@
           "+100 Bonus Health",
           "+1.75 Health Regen"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/f/fb/Duration_Extender.png/64px-Duration_Extender.png"
       },
       {
@@ -908,8 +1031,10 @@
         "components": [],
         "description": ["Reduces the Cooldown of your abilities and items."],
         "stats": ["+16% Cooldown Reduction", "+1.5 Health Regen"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/b/b5/Improved_Cooldown.png/64px-Improved_Cooldown.png"
       },
       {
@@ -920,12 +1045,14 @@
         "components": [],
         "description": [],
         "stats": ["+6% Spirit Resist"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "When the target takes Spirit Damage, they have their Spirit Resist reduced.",
           "-12% Spirit Resist",
           "6s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/c/c7/Mystic_Vulnerability.png/64px-Mystic_Vulnerability.png"
       },
       {
@@ -936,13 +1063,15 @@
         "components": [],
         "description": [],
         "stats": [],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Imbue an ability with bonus Spirit Damage on the first hit.  When the ability is used, your weapon is reloaded and has a Fire Rate bonus for that clip.",
           "65 Spirit Damage",
           "15% Fire Rate Bonus",
           "12s Max Frequency"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/3/3b/Quicksilver_Reload.png/64px-Quicksilver_Reload.png"
       },
       {
@@ -953,12 +1082,14 @@
         "components": [],
         "description": [],
         "stats": ["+50 Bonus Health", "+2.5 Health Regen", "+4 Spirit Power"],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "When you deal Spirit Damage to enemies, you also apply Fire Rate Slow.",
           "-25% Fire Rate Slow",
           "2s Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/2/21/Suppressor.png/64px-Suppressor.png"
       },
       {
@@ -969,8 +1100,10 @@
         "components": [],
         "description": [],
         "stats": ["+10% Spirit Resist"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/4/4d/Cold_Front.png/64px-Cold_Front.png"
       },
       {
@@ -981,8 +1114,10 @@
         "components": [],
         "description": [],
         "stats": ["+7 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/9/93/Decay.png/64px-Decay.png"
       },
       {
@@ -993,8 +1128,10 @@
         "components": [],
         "description": [],
         "stats": ["+1m/s Sprint Speed", "+5 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/1/18/Slowing_Hex.png/64px-Slowing_Hex.png"
       },
       {
@@ -1005,8 +1142,10 @@
         "components": [],
         "description": [],
         "stats": ["+4 Spirit Power", "+8% Fire Rate", "+50 Bonus Health"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/0/0a/Withering_Whip.png/64px-Withering_Whip.png"
       }
     ],
@@ -1019,8 +1158,10 @@
         "components": [],
         "description": [],
         "stats": ["+1 Stamina", "+200 Spirit Shield Health", "+6 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/3/36/Knockdown.png/64px-Knockdown.png"
       },
       {
@@ -1031,8 +1172,10 @@
         "components": [],
         "description": [],
         "stats": ["+150 Spirit Shield Health", "+1m/s Sprint Speed"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/3/3c/Silence_Glyph.png/64px-Silence_Glyph.png"
       }
     ],
@@ -1049,13 +1192,15 @@
           "+125 Bonus Health",
           "-15% Spirit Resist on Spirit Damage"
         ],
-        "hasPassive": ["Passive"],
+        "hasPassives": ["Passive"],
         "passives": [
           "Dealing Spirit Damage applies a stacking Spirit Amp that increases your Spirit Damage to the target.",
           "+6% Spirit Amp per Stack",
           "15s Duration",
           "0.7s Max Frequency per Target"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/2/21/Escalating_Exposure.png/64px-Escalating_Exposure.png"
       },
       {
@@ -1070,7 +1215,7 @@
           "+15% Spirit Resist",
           "+15% Ability Range"
         ],
-        "hasPassive": ["Passive", "6s Cooldown"],
+        "hasPassives": ["Passive", "6s Cooldown"],
         "passives": [
           "Imbue an ability to apply slow in a radius around the target and deal an additional percentage of the damage dealt to enemies around the target after a short delay.",
           "+40% Damage (Conditional)",
@@ -1078,6 +1223,8 @@
           "16m Radius",
           "3s Delay Duration"
         ],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/0/07/Mystic_Reverb.png/64px-Mystic_Reverb.png"
       },
       {
@@ -1088,8 +1235,10 @@
         "components": [],
         "description": [],
         "stats": ["+20% Weapon Damage", "+8 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/8/85/Curse.png/64px-Curse.png"
       },
       {
@@ -1100,8 +1249,10 @@
         "components": [],
         "description": [],
         "stats": ["+1m/s Move Speed", "+16% Bullet Resist", "+12 Spirit Power"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/a/ab/Echo_Shard.png/64px-Echo_Shard.png"
       },
       {
@@ -1116,8 +1267,10 @@
           "+15 Spirit Power",
           "+150 Bonus Health"
         ],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/2/25/Magic_Carpet.png/64px-Magic_Carpet.png"
       },
       {
@@ -1128,8 +1281,10 @@
         "components": [],
         "description": [],
         "stats": ["+16% Spirit Resist", "+8% Bullet Resist"],
-        "hasPassive": [],
+        "hasPassives": [],
         "passives": [],
+        "hasActives": [],
+        "actives": [],
         "image": "/images/thumb/5/53/Refresher.png/64px-Refresher.png"
       }
     ]

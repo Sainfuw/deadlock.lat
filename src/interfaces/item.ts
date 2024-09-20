@@ -6,7 +6,9 @@ export interface IItem {
   components: string[]
   description: string[]
   stats: string[]
-  hasPassive: string[]
+  hasPassives: string[]
   passives: string[]
+  hasActives: string[]
+  actives: string[]
   image: string
 }

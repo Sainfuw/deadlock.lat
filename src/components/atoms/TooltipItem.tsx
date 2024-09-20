@@ -7,6 +7,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '../ui/tooltip'
+import { ItemContent } from './ItemContent'
 
 interface Props {
   item: IItem
@@ -39,15 +40,7 @@ export const TooltipItem = ({ item }: Props) => {
           </Card>
         </TooltipTrigger>
         <TooltipContent>
-          <div className='flex flex-col max-w-60'>
-            <h3 className='text-xl'>{item.name}</h3>
-            <p>{item.power}</p>
-            <p>{item.stats}</p>
-            <p>{item.description}</p>
-            <p>{item.components}</p>
-            <p>{item.hasPassive}</p>
-            <p>{item.passives}</p>
-          </div>
+          <ItemContent item={item} />
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

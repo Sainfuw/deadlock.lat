@@ -1,10 +1,10 @@
 ---
 import type { IHero } from '@/interfaces/hero'
-import { actions } from 'astro:actions'
 import { Image } from 'astro:assets'
 import { Github, Linkedin, X } from 'lucide-react'
 
-const { data: heroes } = await actions.getHeroes()
+// const { data: heroes } = await actions.getHeroes()
+import heroes from '@/data/heroes.json'
 ---
 
 <footer class='bg-black text-white py-8 mt-8'>

@@ -1,5 +1,6 @@
 import { getData } from '@/lib/getItemData'
 import { defineAction } from 'astro:actions'
+import fs from 'fs/promises'
 import { JSDOM } from 'jsdom'
 
 export const getItems = defineAction({
@@ -37,6 +38,8 @@ export const getItems = defineAction({
       const t3 = getData(HtmlTables[3])
       const t4 = getData(HtmlTables[4])
       const t5 = getData(HtmlTables[5])
+      const t6 = getData(HtmlTables[6])
+      const t7 = getData(HtmlTables[7])
 
       const imageNode = new JSDOM(HtmlTables[0])
       const image = imageNode.window.document.querySelectorAll('img')[1].src
@@ -51,8 +54,10 @@ export const getItems = defineAction({
         components: t1,
         description: t2,
         stats: t3,
-        hasPassive: t4,
+        hasPassives: t4,
         passives: t5 ?? [],
+        hasActives: t6,
+        actives: t7 ?? [],
         image,
       }
     })
@@ -79,7 +84,7 @@ export const getItems = defineAction({
       groupByType[type] = groupByPrice
     }
 
-    // await fs.writeFile('src/data/items.json', JSON.stringify(groupByType))
+    await fs.writeFile('src/data/items.json', JSON.stringify(groupByType))
 
     return groupByType
   },
