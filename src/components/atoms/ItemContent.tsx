@@ -1,5 +1,8 @@
 import { API_BASE_URL } from '@/consts'
 import type { IItem } from '@/interfaces/item'
+import { Divider } from './Divider'
+import { ItemSection } from './ItemSection'
+import { ItemTitle } from './ItemTitle'
 
 export function ItemContent({ item }: { item: IItem }) {
   return (
@@ -26,80 +29,40 @@ export function ItemContent({ item }: { item: IItem }) {
 
       {item.description.length > 0 && (
         <>
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex flex-col my-2'>
-            <h4 className='text-lg'>Abilities</h4>
-            {item.description.map((desc, i) => (
-              <div key={`${desc}-${i}`}>
-                <p>{desc}</p>
-              </div>
-            ))}
-          </div>
+          <Divider />
+          <ItemSection title='Description' item={item.description} />
         </>
       )}
 
       {item.components.length > 0 && (
         <>
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex flex-col my-2'>
-            <h4 className='text-lg'>Components</h4>
-            {item.components.map((component, i) => (
-              <div key={`${component}-${i}`}>
-                <p>{component}</p>
-              </div>
-            ))}
-          </div>
+          <Divider />
+          <ItemSection title='Components' item={item.components} />
         </>
       )}
 
       {item.stats.length > 0 && (
         <>
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex flex-col my-2'>
-            {item.stats.map((stat, i) => (
-              <div key={`${stat}-${i}`}>
-                <p>{stat}</p>
-              </div>
-            ))}
-          </div>
+          <Divider />
+          <ItemSection title='Stats' item={item.stats} />
         </>
       )}
 
       {item.hasPassives.length > 0 && (
         <>
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex justify-between items-center pt-2'>
-            <h4 className='font-bold'>{item.hasPassives.at(0)}</h4>
-            <h4 className='font-bold'>{item.hasPassives.at(1)}</h4>
-          </div>
-
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex flex-col my-2'>
-            {item.passives.map((passive, i) => (
-              <div key={`${passive}-${i}`}>
-                <p>{passive}</p>
-              </div>
-            ))}
-          </div>
+          <Divider />
+          <ItemTitle item={item.hasPassives} />
+          <Divider />
+          <ItemSection item={item.passives} />
         </>
       )}
 
       {item.hasActives.length > 0 && (
         <>
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex justify-between items-center pt-2'>
-            <h4 className='font-bold'>{item.hasActives.at(0)}</h4>
-            <h4 className='font-bold'>{item.hasActives.at(1)}</h4>
-          </div>
-
-          <div className='border-b-2 border-gray-500 pt-2'></div>
-          <div className='flex flex-col my-2'>
-            {item.actives.map((active, i) => (
-              <div key={`${active}-${i}`}>
-                <p className='text-pretty'>{active}</p>
-              </div>
-            ))}
-          </div>
+          <Divider />
+          <ItemTitle item={item.hasActives} />
+          <Divider />
+          <ItemSection item={item.actives} />
         </>
       )}
     </div>

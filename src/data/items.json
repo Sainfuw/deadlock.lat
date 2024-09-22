@@ -46,8 +46,11 @@
           "Deal bonus Weapon Damage with headshots",
           "+40 Head Shot Bonus Damage"
         ],
-        "hasActives": [],
-        "actives": [],
+        "hasActives": ["Active", "7.5s"],
+        "actives": [
+          "Deal bonus Weapon Damage with headshots",
+          "+40 Head Shot Bonus Damage"
+        ],
         "image": "/images/thumb/a/ac/Headshot_Booster.png/64px-Headshot_Booster.png"
       },
       {
