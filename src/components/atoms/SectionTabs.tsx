@@ -1,6 +1,7 @@
 import type { IHero } from '@/interfaces/hero'
 import type { IItem } from '@/interfaces/item'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs'
+import { Divider } from './Divider'
 import { TooltipHeroe } from './TooltipHeroe'
 import { TooltipItem } from './TooltipItem'
 
@@ -28,15 +29,20 @@ export const SectionTabs = ({ heroes, items }: Props) => {
         <div>
           {Object.entries(items).map(([type, itemsByType]) => (
             <div key={type}>
-              <h2>{type}</h2>
+              <h2 className='text-2xl font-bold text-center pt-4 underline'>
+                {type}
+              </h2>
               {Object.entries(itemsByType).map(([price, itemsByPrice]) => (
-                <div key={price}>
-                  <h2>{price}</h2>
-                  <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8 gap-4 mt-6'>
+                <div key={price} className='relative'>
+                  <h2 className='rotate-[270deg] absolute top-1/2 transform -translate-y-8 -left-10 font-bold'>
+                    {price}
+                  </h2>
+                  <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8 gap-4 my-6'>
                     {(itemsByPrice as IItem[]).map((item: IItem) => (
                       <TooltipItem key={item.name} item={item} />
                     ))}
                   </div>
+                  <Divider />
                 </div>
               ))}
             </div>

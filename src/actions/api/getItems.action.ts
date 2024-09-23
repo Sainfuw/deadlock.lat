@@ -84,33 +84,37 @@ export const getItems = defineAction({
     //   }
     // })
 
-    // await fs.writeFile('src/data/items.json', JSON.stringify(result))
+    // const filteredResult = result.filter(
+    //   (item) => item !== undefined && item !== null
+    // )
 
-    const result = items
-    const filteredResult = result.filter((item) => item !== undefined)
+    // await fs.writeFile('src/data/items.json', JSON.stringify(filteredResult))
 
-    const groupByType = filteredResult.reduce((acc: any, item) => {
+    const filteredResult = items
+
+    const groupedByType = filteredResult.reduce((acc: any, item) => {
       acc[item!.type] = [...(acc[item!.type] || []), item]
       return acc
     }, {})
 
-    console.log(groupByType)
+    const groupedByTypeAndPrice = Object.fromEntries(
+      Object.entries(groupedByType).map(([type, items]: any) => {
+        const groupedByPrice = items.reduce((acc, item) => {
+          if (item.price >= 0 && item.price <= 500) {
+            acc['500'] = [...(acc['500'] || []), item]
+          } else if (item.price > 500 && item.price <= 1250) {
+            acc['1250'] = [...(acc['1250'] || []), item]
+          } else if (item.price > 1250 && item.price < 6000) {
+            acc['3000'] = [...(acc['3000'] || []), item]
+          } else {
+            acc['6000'] = [...(acc['6000'] || []), item]
+          }
+          return acc
+        }, {})
+        return [type, groupedByPrice]
+      })
+    )
 
-    // for (const type in groupByType) {
-    //   const groupByPrice = groupByType[type].reduce((acc: any, item) => {
-    //     if (item.price < 1250) acc['500'] = [...(acc[item.price] || []), item]
-    //     else if (item.price < 3000)
-    //       acc['1250'] = [...(acc[item.price] || []), item]
-    //     else if (item.price < 6000)
-    //       acc['3000'] = [...(acc[item.price] || []), item]
-    //     else acc['6200'] = [...(acc[item.price] || []), item]
-    //     return acc
-    //   }, {})
-
-    //   groupByType[type] = groupByPrice
-    // }
-
-    // return groupByType
-    return {}
+    return groupedByTypeAndPrice
   },
 })
