@@ -3,10 +3,14 @@ import { SectionTabs } from './atoms/SectionTabs'
 
 // const { data: heroes, error: heroesError } = await actions.getHeroes()
 // const { data: items, error: itemsError } = await actions.getItems()
+const { data: items2, error: itemsError } = await actions.getItems()
 // if (heroesError || itemsError) throw new Error('Error fetching data')
 
 import heroes from '@/data/heroes.json'
 import items from '@/data/items.json'
+import { actions } from 'astro:actions'
+
+console.log(items2)
 ---
 
 <main class='py-8 flex-grow'>
