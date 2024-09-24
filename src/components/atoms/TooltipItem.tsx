@@ -34,7 +34,7 @@ export const TooltipItem = ({ item }: Props) => {
                 alt={item.name}
                 width={50}
                 height={50}
-                className='rounded-lg mx-auto aspect-2/3'
+                className={`rounded-lg mx-auto aspect-2/3 ${item.name === 'Headhunter' ? '' : 'invert'}`}
               />
             </CardContent>
             <CardFooter className='p-0 bg-[#ffefd7] text-black rounded-b h-16'>
