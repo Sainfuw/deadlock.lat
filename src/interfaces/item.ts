@@ -2,7 +2,7 @@ export interface IItem {
   name: string
   type: string
   power: string
-  price: string
+  price: number
   components: string[]
   description: string[]
   stats: string[]

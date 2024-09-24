@@ -1,8 +1,9 @@
 import items from '@/data/items.json'
 import type { IItem } from '@/interfaces/item'
+import { groupBy, groupFilters } from '@/utils/groupBy'
 import { defineAction } from 'astro:actions'
 
-export interface Items {
+export interface ItemsByTypeAndPrice {
   [key: string]: {
     [key: string]: IItem[]
   }
@@ -99,29 +100,17 @@ export const getItems = defineAction({
 
     const filteredResult = items
 
-    const groupedByType = filteredResult.reduce((acc: any, item) => {
-      acc[item!.type] = [...(acc[item!.type] || []), item]
-      return acc
-    }, {})
-
+    const groupedByType = groupBy(filteredResult, ({ type }) => type)
     const groupedByTypeAndPrice = Object.fromEntries(
       Object.entries(groupedByType).map(([type, items]: any) => {
-        const groupedByPrice = items.reduce((acc, item) => {
-          if (item.price >= 0 && item.price <= 500) {
-            acc['500'] = [...(acc['500'] || []), item]
-          } else if (item.price > 500 && item.price <= 1250) {
-            acc['1250'] = [...(acc['1250'] || []), item]
-          } else if (item.price > 1250 && item.price < 6000) {
-            acc['3000+'] = [...(acc['3000+'] || []), item]
-          } else {
-            acc['6200+'] = [...(acc['6200+'] || []), item]
-          }
-          return acc
-        }, {})
+        const itemsByType = items.sort((a, b) => a.price - b.price) as IItem[]
+        const groupedByPrice = groupBy(itemsByType, (item) =>
+          groupFilters(item.price)
+        )
         return [type, groupedByPrice]
       })
     )
 
-    return groupedByTypeAndPrice as Items
+    return groupedByTypeAndPrice as ItemsByTypeAndPrice
   },
 })
