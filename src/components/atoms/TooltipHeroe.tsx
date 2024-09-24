@@ -21,7 +21,10 @@ export const TooltipHeroe = ({ hero }: Props) => {
             <Card className='bg-white dark:bg-black/20 border border-black/30 dark:border-white/20 relative overflow-hidden'>
               <div className='absolute -translate-x-1/2 left-1/2 z-10 top-2'>
                 {hero.name.split(' ').map((w) => (
-                  <h3 className='[text-shadow:_3px_3px_2px_rgb(0_0_0/_1)] text-xl text-center font-bold'>
+                  <h3
+                    key={w}
+                    className='[text-shadow:_3px_3px_2px_rgb(0_0_0/_1)] text-xl text-center font-bold'
+                  >
                     {w}
                   </h3>
                 ))}

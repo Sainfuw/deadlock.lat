@@ -11,7 +11,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/5/54/Basic_Magazine.png/64px-Basic_Magazine.png"
+    "image": "/images/thumb/5/54/Basic_Magazine.png/96px-Basic_Magazine.png"
   },
   {
     "name": "Close Quarters",
@@ -27,9 +27,8 @@
       "+25% Weapon Damage Conditional",
       "Condition: 15m Close Range"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/4/43/Close_Quarters.png/64px-Close_Quarters.png"
+    "image": "/images/thumb/4/43/Close_Quarters.png/96px-Close_Quarters.png"
   },
   {
     "name": "Headshot Booster",
@@ -44,9 +43,8 @@
       "Deal bonus Weapon Damage with headshots",
       "+40 Head Shot Bonus Damage"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/a/ac/Headshot_Booster.png/64px-Headshot_Booster.png"
+    "image": "/images/thumb/a/ac/Headshot_Booster.png/96px-Headshot_Booster.png"
   },
   {
     "name": "High-Velocity Mag",
@@ -64,7 +62,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/6a/High-Velocity_Mag.png/64px-High-Velocity_Mag.png"
+    "image": "/images/thumb/6/6a/High-Velocity_Mag.png/96px-High-Velocity_Mag.png"
   },
   {
     "name": "Hollow Point Ward",
@@ -79,9 +77,8 @@
       "When you are above 60% health, deal additional Weapon Damage.",
       "+22% Weapon Damage Conditional"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/7/73/Hollow_Point_Ward.png/64px-Hollow_Point_Ward.png"
+    "image": "/images/thumb/7/73/Hollow_Point_Ward.png/96px-Hollow_Point_Ward.png"
   },
   {
     "name": "Monster Rounds",
@@ -100,7 +97,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/f/f8/Monster_Rounds.png/64px-Monster_Rounds.png"
+    "image": "/images/thumb/f/f8/Monster_Rounds.png/96px-Monster_Rounds.png"
   },
   {
     "name": "Rapid Rounds",
@@ -114,7 +111,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/6e/Rapid_Rounds.png/64px-Rapid_Rounds.png"
+    "image": "/images/thumb/6/6e/Rapid_Rounds.png/96px-Rapid_Rounds.png"
   },
   {
     "name": "Restorative Shot",
@@ -130,9 +127,8 @@
       "40 Healing from Heroes",
       "15 Healing from NPCs"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/4/4c/Restorative_Shot.png/64px-Restorative_Shot.png"
+    "image": "/images/thumb/4/4c/Restorative_Shot.png/96px-Restorative_Shot.png"
   },
   {
     "name": "Active Reload",
@@ -149,9 +145,8 @@
       "+20% Bullet Lifesteal (Conditional)",
       "7s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/b/b4/Active_Reload.png/64px-Active_Reload.png"
+    "image": "/images/thumb/b/b4/Active_Reload.png/96px-Active_Reload.png"
   },
   {
     "name": "Berserker",
@@ -169,9 +164,8 @@
       "10 Max Stacks",
       "10s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/a/a8/Berserker.png/64px-Berserker.png"
+    "image": "/images/thumb/a/a8/Berserker.png/96px-Berserker.png"
   },
   {
     "name": "Kinetic Dash",
@@ -188,9 +182,8 @@
       "+5 Temporary Ammo",
       "8s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/3/3e/Kinetic_Dash.png/64px-Kinetic_Dash.png"
+    "image": "/images/thumb/3/3e/Kinetic_Dash.png/96px-Kinetic_Dash.png"
   },
   {
     "name": "Long Range",
@@ -206,9 +199,8 @@
       "+40% Weapon Damage (Conditional)",
       "15m Minimum Distance"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/0a/Long_Range.png/64px-Long_Range.png"
+    "image": "/images/thumb/0/0a/Long_Range.png/96px-Long_Range.png"
   },
   {
     "name": "Melee Charge",
@@ -228,9 +220,8 @@
       "Increases your Heavy Melee charge distance. When you perform a Heavy Melee attack against an enemy, your weapon reloads instantly.",
       "+20% Bonus Heavy Melee Damage"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/e/ea/Melee_Charge.png/64px-Melee_Charge.png"
+    "image": "/images/thumb/e/ea/Melee_Charge.png/96px-Melee_Charge.png"
   },
   {
     "name": "Mystic Shot",
@@ -245,9 +236,8 @@
       "Your next bullet deals bonus Spirit Damage",
       "65 + (0.62 * SpiritPower) Spirit Damage"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/5/5a/Mystic_Shot.png/64px-Mystic_Shot.png"
+    "image": "/images/thumb/5/5a/Mystic_Shot.png/96px-Mystic_Shot.png"
   },
   {
     "name": "Slowing Bullets",
@@ -263,9 +253,8 @@
       "25% Movement Slow (Conditional)",
       "1.3s Slow Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/d/db/Slowing_Bullets.png/64px-Slowing_Bullets.png"
+    "image": "/images/thumb/d/db/Slowing_Bullets.png/96px-Slowing_Bullets.png"
   },
   {
     "name": "Soul Shredder Bullets",
@@ -282,9 +271,8 @@
       "+20% Lifesteal (Conditional)",
       "6s Debuff Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/cb/Soul_Shredder_Bullets.png/64px-Soul_Shredder_Bullets.png"
+    "image": "/images/thumb/c/cb/Soul_Shredder_Bullets.png/96px-Soul_Shredder_Bullets.png"
   },
   {
     "name": "Swift Striker",
@@ -298,7 +286,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/e/e4/Swift_Striker.png/64px-Swift_Striker.png"
+    "image": "/images/thumb/e/e4/Swift_Striker.png/96px-Swift_Striker.png"
   },
   {
     "name": "Fleetfoot",
@@ -308,11 +296,16 @@
     "components": [],
     "description": [],
     "stats": ["+90 Bonus Health", "+25% Slide Distance"],
-    "hasPassives": ["Passive", "None"],
+    "hasPassives": ["Passive"],
     "passives": ["Removes the Movement Speed penalty while shooting."],
-    "hasActives": [],
+    "hasActives": [
+      "Gain bonus Movement Speed and Ammo.",
+      "+3m/s Movement Speed (Conditional)",
+      "+30% Temporary Ammo (Conditional)",
+      "4s Duration"
+    ],
     "actives": [],
-    "image": "/images/thumb/c/cf/Fleetfoot.png/64px-Fleetfoot.png"
+    "image": "/images/thumb/c/cf/Fleetfoot.png/96px-Fleetfoot.png"
   },
   {
     "name": "Burst Fire",
@@ -329,9 +322,8 @@
       "+2 m/s Move Speed (Conditional)",
       "4s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/b/b0/Burst_Fire.png/64px-Burst_Fire.png"
+    "image": "/images/thumb/b/b0/Burst_Fire.png/96px-Burst_Fire.png"
   },
   {
     "name": "Escalating Resilience",
@@ -348,9 +340,8 @@
       "2% Bullet Resist per Stack",
       "20s Stack Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/5/57/Escalating_Resilience.png/64px-Escalating_Resilience.png"
+    "image": "/images/thumb/5/57/Escalating_Resilience.png/96px-Escalating_Resilience.png"
   },
   {
     "name": "Headhunter",
@@ -372,9 +363,8 @@
       "+2 m/s Move Speed (Conditional)",
       "3s Duration 6s Cooldown"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/06/Headhunter.png/64px-Headhunter.png"
+    "image": "/images/thumb/0/06/Headhunter.png/96px-Headhunter.png"
   },
   {
     "name": "Hunter's Aura",
@@ -391,9 +381,8 @@
       "Conditional: 10% Fire Rate Slow",
       "15m Radius"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/08/Hunter%27s_Aura.png/64px-Hunter%27s_Aura.png"
+    "image": "/images/thumb/0/08/Hunter%27s_Aura.png/96px-Hunter%27s_Aura.png"
   },
   {
     "name": "Intensifying Magazine",
@@ -409,9 +398,8 @@
       "Conditional: 75% Max Weapon Damage",
       "3s Time for Max Damage"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/65/Intensifying_Magazine.png/64px-Intensifying_Magazine.png"
+    "image": "/images/thumb/6/65/Intensifying_Magazine.png/96px-Intensifying_Magazine.png"
   },
   {
     "name": "Point Blank",
@@ -429,9 +417,8 @@
       "2s Slow Duration",
       "15m Close Range"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/7/79/Point_Blank.png/64px-Point_Blank.png"
+    "image": "/images/thumb/7/79/Point_Blank.png/96px-Point_Blank.png"
   },
   {
     "name": "Pristine Emblem",
@@ -446,9 +433,8 @@
       "Your attacks have additional Weapon Damage against enemies above 50% health.",
       "+25% Weapon Damage (Conditional)"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/26/Pristine_Emblem.png/64px-Pristine_Emblem.png"
+    "image": "/images/thumb/2/26/Pristine_Emblem.png/96px-Pristine_Emblem.png"
   },
   {
     "name": "Sharpshooter",
@@ -468,9 +454,8 @@
       "Deal additional Weapon Damage when beyond a minimum distance from your target.",
       "+70% Weapon Damage (15m Min. Distance)"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/25/Sharpshooter.png/64px-Sharpshooter.png"
+    "image": "/images/thumb/2/25/Sharpshooter.png/96px-Sharpshooter.png"
   },
   {
     "name": "Tesla Bullets",
@@ -489,9 +474,8 @@
       "8m Jump Radius",
       "2 Max Jumps"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/5/56/Tesla_Bullets.png/64px-Tesla_Bullets.png"
+    "image": "/images/thumb/5/56/Tesla_Bullets.png/96px-Tesla_Bullets.png"
   },
   {
     "name": "Titanic Magazine",
@@ -505,7 +489,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/d/d8/Titanic_Magazine.png/64px-Titanic_Magazine.png"
+    "image": "/images/thumb/d/d8/Titanic_Magazine.png/96px-Titanic_Magazine.png"
   },
   {
     "name": "Toxic Bullets",
@@ -523,9 +507,8 @@
       "3s Duration",
       "10.3% Buildup Per Shot"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/f/f0/Toxic_Bullets.png/64px-Toxic_Bullets.png"
+    "image": "/images/thumb/f/f0/Toxic_Bullets.png/96px-Toxic_Bullets.png"
   },
   {
     "name": "Alchemical Fire",
@@ -541,9 +524,17 @@
     ],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/f/fc/Alchemical_Fire.png/64px-Alchemical_Fire.png"
+    "hasActives": ["Active", "26s"],
+    "actives": [
+      "Throw a flask that explodes on contact, creating an area that does increasing Spirit Damage per second and causes enemies to receive additional Weapon Damage from your team.",
+      "Deals 40% less DPS vs non-heroes.",
+      "46 DPS",
+      "Conditional: +50% Weapon Damage",
+      "97 Max DPS",
+      "10m Radius",
+      "5s Duration"
+    ],
+    "image": "/images/thumb/f/fc/Alchemical_Fire.png/96px-Alchemical_Fire.png"
   },
   {
     "name": "Heroic Aura",
@@ -560,9 +551,17 @@
       "(Conditional)",
       "20m Radius"
     ],
-    "hasActives": [],
+    "hasActives": [
+      "Provides bonus Movement Speed and Fire Rate to you and nearby allies.",
+      "+2m/s Movement Speed",
+      "(Conditional)",
+      "+25% Fire Rate",
+      "(Conditional)",
+      "30m Active Radius",
+      "6s Duration"
+    ],
     "actives": [],
-    "image": "/images/thumb/6/60/Heroic_Aura.png/64px-Heroic_Aura.png"
+    "image": "/images/thumb/6/60/Heroic_Aura.png/96px-Heroic_Aura.png"
   },
   {
     "name": "Warp Stone",
@@ -574,9 +573,14 @@
     "stats": ["+20% Weapon Damage", "+8 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/4/4f/Warp_Stone.png/64px-Warp_Stone.png"
+    "hasActives": ["Active", "15s"],
+    "actives": [
+      "Teleport straight ahead, gaining Bullet Resist.",
+      "+11m Teleport Range",
+      "+30% Bullet Resist (Conditional)",
+      "5s Buff Duration"
+    ],
+    "image": "/images/thumb/4/4f/Warp_Stone.png/96px-Warp_Stone.png"
   },
   {
     "name": "Crippling Headshot",
@@ -597,9 +601,8 @@
       "24% Spirit Resist Reduction",
       "4s Debuff Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/6c/Crippling_Headshot.png/64px-Crippling_Headshot.png"
+    "image": "/images/thumb/6/6c/Crippling_Headshot.png/96px-Crippling_Headshot.png"
   },
   {
     "name": "Frenzy",
@@ -619,9 +622,8 @@
       "45% Spirit Resist",
       "(Conditional)"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/f/f1/Frenzy.png/64px-Frenzy.png"
+    "image": "/images/thumb/f/f1/Frenzy.png/96px-Frenzy.png"
   },
   {
     "name": "Glass Cannon",
@@ -641,9 +643,8 @@
       "Each hero kill grants permanent Weapon Damage (up to a max of 7 times). Death results in loss of 1 stack.",
       "Conditional: +10% Weapon Damage per Kill"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/6e/Glass_Cannon.png/64px-Glass_Cannon.png"
+    "image": "/images/thumb/6/6e/Glass_Cannon.png/96px-Glass_Cannon.png"
   },
   {
     "name": "Lucky Shot",
@@ -661,9 +662,8 @@
       "Conditional: 30% Movement Slow",
       "1.5s Slow Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/06/Lucky_Shot.png/64px-Lucky_Shot.png"
+    "image": "/images/thumb/0/06/Lucky_Shot.png/96px-Lucky_Shot.png"
   },
   {
     "name": "Ricochet",
@@ -680,9 +680,8 @@
       "2 Ricochet Targets",
       "14m Ricochet Range"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/8/87/Ricochet.png/64px-Ricochet.png"
+    "image": "/images/thumb/8/87/Ricochet.png/96px-Ricochet.png"
   },
   {
     "name": "Siphon Bullets",
@@ -699,9 +698,8 @@
       "20s Steal Duration",
       "0.8s Max Frequency"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/2c/Siphon_Bullets.png/64px-Siphon_Bullets.png"
+    "image": "/images/thumb/2/2c/Siphon_Bullets.png/96px-Siphon_Bullets.png"
   },
   {
     "name": "Spiritual Overflow",
@@ -723,9 +721,8 @@
       "0.8% Buildup Per Shot",
       "18s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/4/46/Spiritual_Overflow.png/64px-Spiritual_Overflow.png"
+    "image": "/images/thumb/4/46/Spiritual_Overflow.png/96px-Spiritual_Overflow.png"
   },
   {
     "name": "Silencer",
@@ -737,9 +734,13 @@
     "stats": ["+25% Bullet Slow Proc", "+20% Weapon Damage"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/4/43/Silencer.png/64px-Silencer.png"
+    "hasActives": ["Active", "34"],
+    "actives": [
+      "For the next 4s, all your bullets immediately apply Silence. Silence prevents targets from using abilities.",
+      "  Silenced Status Effect",
+      "2s Debuff Duration"
+    ],
+    "image": "/images/thumb/4/43/Silencer.png/96px-Silencer.png"
   },
   {
     "name": "Vampiric Burst",
@@ -751,9 +752,15 @@
     "stats": ["2m/s Move Speed", "+25% Weapon Damage", "+150 Bonus Health"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/d/dc/Vampiric_Burst.png/64px-Vampiric_Burst.png"
+    "hasActives": ["Active", "35s"],
+    "actives": [
+      "Grants Lifesteal, Fire Rate, and Ammo. This added Ammo is not limited by your max magazine size.",
+      "100% Bullet Lifesteal",
+      "40% Fire Rate",
+      "50% Ammo",
+      "4.5s Duration"
+    ],
+    "image": "/images/thumb/d/dc/Vampiric_Burst.png/96px-Vampiric_Burst.png"
   },
   {
     "name": "Enduring Spirit",
@@ -767,7 +774,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/8/80/Enduring_Spirit.png/64px-Enduring_Spirit.png"
+    "image": "/images/thumb/8/80/Enduring_Spirit.png/96px-Enduring_Spirit.png"
   },
   {
     "name": "Extra Health",
@@ -781,7 +788,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/69/Extra_Health.png/64px-Extra_Health.png"
+    "image": "/images/thumb/6/69/Extra_Health.png/96px-Extra_Health.png"
   },
   {
     "name": "Extra Regen",
@@ -795,7 +802,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/60/Extra_Regen.png/64px-Extra_Regen.png"
+    "image": "/images/thumb/6/60/Extra_Regen.png/96px-Extra_Regen.png"
   },
   {
     "name": "Extra Stamina",
@@ -809,7 +816,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/28/Extra_Stamina.png/64px-Extra_Stamina.png"
+    "image": "/images/thumb/2/28/Extra_Stamina.png/96px-Extra_Stamina.png"
   },
   {
     "name": "Melee Lifesteal",
@@ -823,9 +830,8 @@
     "passives": [
       "Your melee attacks heal you for 20% of the Melee Damage dealt plus 90. This heal is 40% effective vs non-heroes."
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/24/Melee_Lifesteal.png/64px-Melee_Lifesteal.png"
+    "image": "/images/thumb/2/24/Melee_Lifesteal.png/96px-Melee_Lifesteal.png"
   },
   {
     "name": "Sprint Boots",
@@ -839,7 +845,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/d/da/Sprint_Boots.png/64px-Sprint_Boots.png"
+    "image": "/images/thumb/d/da/Sprint_Boots.png/96px-Sprint_Boots.png"
   },
   {
     "name": "Healing Rite",
@@ -851,9 +857,15 @@
     "stats": ["+45 Bonus Health", "+3 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/7/72/Healing_Rite.png/64px-Healing_Rite.png"
+    "hasActives": ["Active", "60s"],
+    "actives": [
+      "Grant Regen and Sprint Speed to the target. Gets dispelled if you take damage from enemy players or objectives. Can be self-cast.",
+      "370 Total Health Regen",
+      "+2m/s Sprint Speed",
+      "17s Regen Duration",
+      "30m Cast Range"
+    ],
+    "image": "/images/thumb/7/72/Healing_Rite.png/96px-Healing_Rite.png"
   },
   {
     "name": "Bullet Armor",
@@ -867,7 +879,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/b/bb/Bullet_Armor.png/64px-Bullet_Armor.png"
+    "image": "/images/thumb/b/bb/Bullet_Armor.png/96px-Bullet_Armor.png"
   },
   {
     "name": "Combat Barrier",
@@ -883,9 +895,8 @@
       "+28% Weapon Damage While Shielded",
       "+8% Fire Rate While Shielded"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/7/7c/Combat_Barrier.png/64px-Combat_Barrier.png"
+    "image": "/images/thumb/7/7c/Combat_Barrier.png/96px-Combat_Barrier.png"
   },
   {
     "name": "Debuff Reducer",
@@ -900,9 +911,8 @@
       "Reduces the duration of all negative effects applied to you.",
       "30% Debuff Resist"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/c3/Debuff_Reducer.png/64px-Debuff_Reducer.png"
+    "image": "/images/thumb/c/c3/Debuff_Reducer.png/96px-Debuff_Reducer.png"
   },
   {
     "name": "Enchanter's Barrier",
@@ -918,9 +928,8 @@
       "+20 Spirit Power While Shielded",
       "+8% Cooldown Reduction While Shielded"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/5/54/Enchanter%27s_Barrier.png/64px-Enchanter%27s_Barrier.png"
+    "image": "/images/thumb/5/54/Enchanter%27s_Barrier.png/96px-Enchanter%27s_Barrier.png"
   },
   {
     "name": "Enduring Speed",
@@ -940,9 +949,8 @@
       "Reduces the effects of enemy Movement Slow",
       "+40% Movement Slow Resist"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/cd/Enduring_Speed.png/64px-Enduring_Speed.png"
+    "image": "/images/thumb/c/cd/Enduring_Speed.png/96px-Enduring_Speed.png"
   },
   {
     "name": "Healbane",
@@ -960,9 +968,8 @@
       "350 Heal on Hero Kill",
       "6s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/62/Healbane.png/64px-Healbane.png"
+    "image": "/images/thumb/6/62/Healbane.png/96px-Healbane.png"
   },
   {
     "name": "Healing Booster",
@@ -978,9 +985,8 @@
       "+25% Healing Effectiveness",
       "+15% Heal Reduction Resistance"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/b/b0/Healing_Booster.png/64px-Healing_Booster.png"
+    "image": "/images/thumb/b/b0/Healing_Booster.png/96px-Healing_Booster.png"
   },
   {
     "name": "Reactive Barrier",
@@ -999,9 +1005,8 @@
       "(Conditional)",
       "9s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/f/f2/Reactive_Barrier.png/64px-Reactive_Barrier.png"
+    "image": "/images/thumb/f/f2/Reactive_Barrier.png/96px-Reactive_Barrier.png"
   },
   {
     "name": "Spirit Armor",
@@ -1015,7 +1020,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/a/ac/Spirit_Armor.png/64px-Spirit_Armor.png"
+    "image": "/images/thumb/a/ac/Spirit_Armor.png/96px-Spirit_Armor.png"
   },
   {
     "name": "Divine Barrier",
@@ -1027,9 +1032,16 @@
     "stats": ["+1m/s Sprint Speed", "+75 Health", "+8% Ability Range"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/7/74/Divine_Barrier.png/64px-Divine_Barrier.png"
+    "hasActives": ["Active", "28s"],
+    "actives": [
+      "Provide the target with Bullet Shield, Spirit Shield, and Movement Speed. Can be self-cast.",
+      "300 Bullet Shield",
+      "300 Spirit Shield",
+      "+2m/s Move Speed",
+      "5s Duration",
+      "35m Cast Range"
+    ],
+    "image": "/images/thumb/7/74/Divine_Barrier.png/96px-Divine_Barrier.png"
   },
   {
     "name": "Health Nova",
@@ -1041,9 +1053,14 @@
     "stats": ["+10%Weapon Damage", "+100 Bonus Health", "+4 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/b/b7/Health_Nova.png/64px-Health_Nova.png"
+    "hasActives": ["Active", "60s"],
+    "actives": [
+      "Heal yourself and nearby allies. Heals an additional 20% per ally.",
+      "260 Total HP Regen",
+      "2s Regen Duration",
+      "15m Radius"
+    ],
+    "image": "/images/thumb/b/b7/Health_Nova.png/96px-Health_Nova.png"
   },
   {
     "name": "Restorative Locket",
@@ -1057,9 +1074,13 @@
     "passives": [
       "When an enemy uses an ability within 50m range from you, store one Restoration Stack."
     ],
-    "hasActives": [],
+    "hasActives": [
+      "Consume all stacks to heal target ally. If used at the max stacks it replenishes a stamina point on the target. Can be self-cast.",
+      "+35 Heal per Stack",
+      "15 Max Stacks"
+    ],
     "actives": [],
-    "image": "/images/thumb/0/07/Restorative_Locket.png/64px-Restorative_Locket.png"
+    "image": "/images/thumb/0/07/Restorative_Locket.png/96px-Restorative_Locket.png"
   },
   {
     "name": "Return Fire",
@@ -1071,9 +1092,14 @@
     "stats": ["+125 Bonus Health", "+7 Spirit Power", "+7% Fire Rate"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/7/7c/Return_Fire.png/64px-Return_Fire.png"
+    "hasActives": ["Active", "24s"],
+    "actives": [
+      "Automatically fire a bullet towards any attacker who damages you with their abilities or weapon.",
+      "70% Bullet Damage Returned",
+      "30% Spirit Damage Returned",
+      "7s Duration"
+    ],
+    "image": "/images/thumb/7/7c/Return_Fire.png/96px-Return_Fire.png"
   },
   {
     "name": "Fortitude",
@@ -1085,13 +1111,9 @@
     "stats": ["+275 Bonus Health"],
     "hasPassives": ["Passive", "NA"],
     "passives": ["After not taking damage for 11s, gain 4% Max Health Regen."],
-    "hasActives": ["Passive"],
-    "actives": [
-      "When you are above 75% health, you have bonus Weapon Damage and Movement Speed.",
-      "+25% Weapon Damage (Con.)",
-      "+2m/s Move speed (Con.)"
-    ],
-    "image": "/images/thumb/c/c6/Fortitude.png/64px-Fortitude.png"
+    "hasActives": [],
+    "actives": [],
+    "image": "/images/thumb/c/c6/Fortitude.png/96px-Fortitude.png"
   },
   {
     "name": "Improved Bullet Armor",
@@ -1105,7 +1127,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/2f/Improved_Bullet_Armor.png/64px-Improved_Bullet_Armor.png"
+    "image": "/images/thumb/2/2f/Improved_Bullet_Armor.png/96px-Improved_Bullet_Armor.png"
   },
   {
     "name": "Improved Spirit Armor",
@@ -1119,7 +1141,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/5/51/Improved_Spirit_Armor.png/64px-Improved_Spirit_Armor.png"
+    "image": "/images/thumb/5/51/Improved_Spirit_Armor.png/96px-Improved_Spirit_Armor.png"
   },
   {
     "name": "Lifestrike",
@@ -1136,9 +1158,8 @@
       "(Conditional)",
       "2.5s Slow Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/6a/Lifestrike.png/64px-Lifestrike.png"
+    "image": "/images/thumb/6/6a/Lifestrike.png/96px-Lifestrike.png"
   },
   {
     "name": "Superior Stamina",
@@ -1158,9 +1179,8 @@
     "passives": [
       "Increases the number of Air Dashes and Air Jumps that can be performed before landing from 1 to 2"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/1/18/Superior_Stamina.png/64px-Superior_Stamina.png"
+    "image": "/images/thumb/1/18/Superior_Stamina.png/96px-Superior_Stamina.png"
   },
   {
     "name": "Veil Walker",
@@ -1186,9 +1206,8 @@
       "(Conditional)",
       "5s Invisibility Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/69/Veil_Walker.png/64px-Veil_Walker.png"
+    "image": "/images/thumb/6/69/Veil_Walker.png/96px-Veil_Walker.png"
   },
   {
     "name": "Debuff Remover",
@@ -1203,9 +1222,14 @@
       "Reduces the duration of all negative effects applied to you.",
       "35% Debuff Resist"
     ],
-    "hasActives": [],
+    "hasActives": [
+      "Purge all negative effects currently applied to you. If any effects were removed, gain a movement speed bonus.",
+      "Cannot be used while Stunned or Slept.",
+      "+3m/s Movement Speed",
+      "3s Duration"
+    ],
     "actives": [],
-    "image": "/images/thumb/d/d9/Debuff_Remover.png/64px-Debuff_Remover.png"
+    "image": "/images/thumb/d/d9/Debuff_Remover.png/96px-Debuff_Remover.png"
   },
   {
     "name": "Majestic Leap",
@@ -1217,9 +1241,12 @@
     "stats": ["+10 Spirit Power", "+125 Bonus Health"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/d/d7/Majestic_Leap.png/64px-Majestic_Leap.png"
+    "hasActives": ["Active", "24s"],
+    "actives": [
+      "Launch yourself high into the air. While in the air, you can use the active again to drop down faster.",
+      "Cannot be used for 5s if attacked by enemy Hero."
+    ],
+    "image": "/images/thumb/d/d7/Majestic_Leap.png/96px-Majestic_Leap.png"
   },
   {
     "name": "Metal Skin",
@@ -1231,9 +1258,9 @@
     "stats": ["+125 Bonus Health", "+8 Spirit Power", "+8% Fire Rate"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/f/fa/Metal_Skin.png/64px-Metal_Skin.png"
+    "hasActives": ["Active", "22s"],
+    "actives": ["Become immune to bullets and melee attacks.", "3.5s Duration"],
+    "image": "/images/thumb/f/fa/Metal_Skin.png/96px-Metal_Skin.png"
   },
   {
     "name": "Rescue Beam",
@@ -1245,9 +1272,14 @@
     "stats": ["+125 Bonus Health", "+2m/s Sprint Speed", "+9 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/c/c2/Rescue_Beam.png/64px-Rescue_Beam.png"
+    "hasActives": ["Active", "25s"],
+    "actives": [
+      "Heals a target allied hero and yourself for a percentage of Max Health. Once while healing, you can Pull the target towards you. Can be self-cast.",
+      "26% Heal Amount",
+      "2.5s Channel Duration",
+      "36m Cast Range"
+    ],
+    "image": "/images/thumb/c/c2/Rescue_Beam.png/96px-Rescue_Beam.png"
   },
   {
     "name": "Inhibitor",
@@ -1264,9 +1296,8 @@
       "-35% Damage Penalty (Conditional)",
       "2.5s Debuff Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/9/99/Inhibitor.png/64px-Inhibitor.png"
+    "image": "/images/thumb/9/99/Inhibitor.png/96px-Inhibitor.png"
   },
   {
     "name": "Leech",
@@ -1286,7 +1317,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/3/32/Leech.png/64px-Leech.png"
+    "image": "/images/thumb/3/32/Leech.png/96px-Leech.png"
   },
   {
     "name": "Soul Rebirth",
@@ -1301,9 +1332,8 @@
       "If you die, after 4s you will respawn at your death location with partial health.",
       "+50% Rebirth Health"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/c3/Soul_Rebirth.png/64px-Soul_Rebirth.png"
+    "image": "/images/thumb/c/c3/Soul_Rebirth.png/96px-Soul_Rebirth.png"
   },
   {
     "name": "Colossus",
@@ -1315,9 +1345,16 @@
     "stats": ["+600 Bonus Health", "+20% Melee Damage", "+20% Weapon Damage"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/b/bb/Colossus.png/64px-Colossus.png"
+    "hasActives": ["Active", "37s"],
+    "actives": [
+      "Gain Bullet and Spirit Resist, and slow the movement and dash speed of enemies nearby. Your model size grows by 20%.",
+      "+40% Bullet Resist (Conditional)",
+      "+40% Spirit Resist (Conditional)",
+      "35% Movement Slow (Conditional)",
+      "12m Radius",
+      "7s Duration"
+    ],
+    "image": "/images/thumb/b/bb/Colossus.png/96px-Colossus.png"
   },
   {
     "name": "Phantom Strike",
@@ -1329,9 +1366,15 @@
     "stats": ["+15% Bullet Resist", "+30% Weapon Damage"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/e/e6/Phantom_Strike.png/64px-Phantom_Strike.png"
+    "hasActives": ["Active", "25s"],
+    "actives": [
+      "Teleport to an enemy target, applying Disarm, Slow, and dealing damage.",
+      "3s Disarm & Slow Duration",
+      "50% Movement Slow (Conditional)",
+      "75 Damage",
+      "25m Cast Range"
+    ],
+    "image": "/images/thumb/e/e6/Phantom_Strike.png/96px-Phantom_Strike.png"
   },
   {
     "name": "Shadow Weave",
@@ -1343,9 +1386,19 @@
     "stats": ["+15 Health Regen", "+300 Spirit Shield Health", "+30% Ammo"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/4/4e/Shadow_Weave.png/64px-Shadow_Weave.png"
+    "hasActives": ["Active", "45s"],
+    "actives": [
+      "Become Stealthed. Whenever you take damage while Stealthed you get briefly revealed.",
+      "Attacking or using an ability will end your stealth and start an ambush, temporarily granting you bonus Fire Rate and Spirit Power",
+      "Invisible Status Effect",
+      "25s Stealth Duration",
+      "+2m/s Invis Sprint Speed",
+      "18m Spot Radius",
+      "+40% Ambush Fire Rate (Conditional)",
+      "+55 Ambush Spirit Power (Conditional) ",
+      "8s Ambush Duration"
+    ],
+    "image": "/images/thumb/4/4e/Shadow_Weave.png/96px-Shadow_Weave.png"
   },
   {
     "name": "Unstoppable",
@@ -1362,9 +1415,12 @@
     ],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/e/eb/Unstoppable.png/64px-Unstoppable.png"
+    "hasActives": ["Active", "60s"],
+    "actives": [
+      "Supress negative status effects and become Immune to Stun, Silence, Sleep, Root, and Disarm.",
+      "6s Duration"
+    ],
+    "image": "/images/thumb/e/eb/Unstoppable.png/96px-Unstoppable.png"
   },
   {
     "name": "Ammo Scavenger",
@@ -1382,9 +1438,8 @@
       "35s Spirit Power Duration",
       "12 Max Stacks"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/2b/Ammo_Scavenger.png/64px-Ammo_Scavenger.png"
+    "image": "/images/thumb/2/2b/Ammo_Scavenger.png/96px-Ammo_Scavenger.png"
   },
   {
     "name": "Extra Charge",
@@ -1402,7 +1457,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/4/4a/Extra_Charge.png/64px-Extra_Charge.png"
+    "image": "/images/thumb/4/4a/Extra_Charge.png/96px-Extra_Charge.png"
   },
   {
     "name": "Extra Spirit",
@@ -1416,7 +1471,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/9/94/Extra_Spirit.png/64px-Extra_Spirit.png"
+    "image": "/images/thumb/9/94/Extra_Spirit.png/96px-Extra_Spirit.png"
   },
   {
     "name": "Mystic Burst",
@@ -1426,14 +1481,13 @@
     "components": [],
     "description": [],
     "stats": ["+40 Spirit Shield Health", "+6% Weapon Damage"],
-    "hasPassives": ["Passive", "6s"],
+    "hasPassives": ["Passive", "6.2s"],
     "passives": [
       "Abilities deal bonus Spirit Damage if they deal 80 damage or more in a single hit.",
       "35 Bonus Damage"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/9/95/Mystic_Burst.png/64px-Mystic_Burst.png"
+    "image": "/images/thumb/9/95/Mystic_Burst.png/96px-Mystic_Burst.png"
   },
   {
     "name": "Mystic Reach",
@@ -1449,7 +1503,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/03/Mystic_Reach.png/64px-Mystic_Reach.png"
+    "image": "/images/thumb/0/03/Mystic_Reach.png/96px-Mystic_Reach.png"
   },
   {
     "name": "Spirit Strike",
@@ -1470,9 +1524,8 @@
       "-12% Spirit Resist",
       "11s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/7/7c/Spirit_Strike.png/64px-Spirit_Strike.png"
+    "image": "/images/thumb/7/7c/Spirit_Strike.png/96px-Spirit_Strike.png"
   },
   {
     "name": "Infuser",
@@ -1484,9 +1537,14 @@
     "stats": ["+50 Bonus Health", "+10% Ammo"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/c/c3/Infuser.png/64px-Infuser.png"
+    "hasActives": ["Active", "37s"],
+    "actives": [
+      "Gain Spirit Power and Spirit Lifesteal.",
+      "+16 Spirit Power",
+      "+20% Spirit Lifesteal",
+      "6s Duration"
+    ],
+    "image": "/images/thumb/c/c3/Infuser.png/96px-Infuser.png"
   },
   {
     "name": "Bullet Resist Shredder",
@@ -1502,9 +1560,8 @@
       "-12% Bullet Resist",
       "8s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/7/7d/Bullet_Resist_Shredder.png/64px-Bullet_Resist_Shredder.png"
+    "image": "/images/thumb/7/7d/Bullet_Resist_Shredder.png/96px-Bullet_Resist_Shredder.png"
   },
   {
     "name": "Duration Extender",
@@ -1522,7 +1579,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/f/fb/Duration_Extender.png/64px-Duration_Extender.png"
+    "image": "/images/thumb/f/fb/Duration_Extender.png/96px-Duration_Extender.png"
   },
   {
     "name": "Improved Cooldown",
@@ -1536,7 +1593,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/b/b5/Improved_Cooldown.png/64px-Improved_Cooldown.png"
+    "image": "/images/thumb/b/b5/Improved_Cooldown.png/96px-Improved_Cooldown.png"
   },
   {
     "name": "Mystic Vulnerability",
@@ -1552,9 +1609,8 @@
       "-12% Spirit Resist",
       "6s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/c7/Mystic_Vulnerability.png/64px-Mystic_Vulnerability.png"
+    "image": "/images/thumb/c/c7/Mystic_Vulnerability.png/96px-Mystic_Vulnerability.png"
   },
   {
     "name": "Quicksilver Reload",
@@ -1571,9 +1627,8 @@
       "15% Fire Rate Bonus",
       "12s Max Frequency"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/3/3b/Quicksilver_Reload.png/64px-Quicksilver_Reload.png"
+    "image": "/images/thumb/3/3b/Quicksilver_Reload.png/96px-Quicksilver_Reload.png"
   },
   {
     "name": "Suppressor",
@@ -1589,9 +1644,8 @@
       "-25% Fire Rate Slow",
       "2s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/21/Suppressor.png/64px-Suppressor.png"
+    "image": "/images/thumb/2/21/Suppressor.png/96px-Suppressor.png"
   },
   {
     "name": "Cold Front",
@@ -1603,9 +1657,15 @@
     "stats": ["+10% Spirit Resist"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/4/4d/Cold_Front.png/64px-Cold_Front.png"
+    "hasActives": ["Active", "32s"],
+    "actives": [
+      "Release an expanding ice blast that deals Spirit Damage and Slows targets it hits.",
+      "75 + (1.5 * Spirit Power) Spirit Damage",
+      "40% Movement Slow",
+      "14m End Radius",
+      "3s Duration"
+    ],
+    "image": "/images/thumb/4/4d/Cold_Front.png/96px-Cold_Front.png"
   },
   {
     "name": "Decay",
@@ -1617,9 +1677,15 @@
     "stats": ["+7 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/9/93/Decay.png/64px-Decay.png"
+    "hasActives": ["Active", "30s"],
+    "actives": [
+      "Reduces healing received of targeted enemy and inflicts damage over time of their current health. Decay's damage is non-lethal.",
+      "-50% Healing Reduction",
+      "3.1%/sec Bleed Damage",
+      "15m + (0.20 * SpiritPower) Cast Range",
+      "10s Duration"
+    ],
+    "image": "/images/thumb/9/93/Decay.png/96px-Decay.png"
   },
   {
     "name": "Slowing Hex",
@@ -1631,9 +1697,15 @@
     "stats": ["+1m/s Sprint Speed", "+5 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/1/18/Slowing_Hex.png/64px-Slowing_Hex.png"
+    "hasActives": ["Active", "25s"],
+    "actives": [
+      "Deals Spirit Damage and Slows targets movement and dashes. Also Silences their movement-based items and abilities. Does not affect target's stamina usage.",
+      "70 + (0.59 * Spirit Power) Spirit Damage",
+      "30% Movement Slow",
+      "25m Cast Range",
+      "3s Duration"
+    ],
+    "image": "/images/thumb/1/18/Slowing_Hex.png/96px-Slowing_Hex.png"
   },
   {
     "name": "Withering Whip",
@@ -1645,9 +1717,15 @@
     "stats": ["+4 Spirit Power", "+8% Fire Rate", "+50 Bonus Health"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/0/0a/Withering_Whip.png/64px-Withering_Whip.png"
+    "hasActives": ["Active", "26s"],
+    "actives": [
+      "Target an enemy to apply Fire Rate Slow and reduce their Bullet Resist.",
+      "-40% Fire Rate Slow",
+      "-14% Bullet Resist",
+      "24m Cast Range",
+      "4.5s Duration"
+    ],
+    "image": "/images/thumb/0/0a/Withering_Whip.png/96px-Withering_Whip.png"
   },
   {
     "name": "Improved Burst",
@@ -1663,9 +1741,8 @@
       "Targets are immune to the effects of Improved Burst for 5s after taking damage from it.",
       "+9% Max Health Bonus Damage (Conditional)"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/d/dd/Improved_Burst.png/64px-Improved_Burst.png"
+    "image": "/images/thumb/d/dd/Improved_Burst.png/96px-Improved_Burst.png"
   },
   {
     "name": "Improved Reach",
@@ -1684,9 +1761,8 @@
     "passives": [
       "Increases the range and effect radius of your abilities and items."
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/9/91/Improved_Reach.png/64px-Improved_Reach.png"
+    "image": "/images/thumb/9/91/Improved_Reach.png/96px-Improved_Reach.png"
   },
   {
     "name": "Improved Spirit",
@@ -1705,7 +1781,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/c9/Improved_Spirit.png/64px-Improved_Spirit.png"
+    "image": "/images/thumb/c/c9/Improved_Spirit.png/96px-Improved_Spirit.png"
   },
   {
     "name": "Mystic Slow",
@@ -1722,9 +1798,8 @@
       "+40% Fire Rate Slow",
       "2s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/6/65/Mystic_Slow.png/64px-Mystic_Slow.png"
+    "image": "/images/thumb/6/65/Mystic_Slow.png/96px-Mystic_Slow.png"
   },
   {
     "name": "Rapid Recharge",
@@ -1743,7 +1818,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/a/a9/Rapid_Recharge.png/64px-Rapid_Recharge.png"
+    "image": "/images/thumb/a/a9/Rapid_Recharge.png/96px-Rapid_Recharge.png"
   },
   {
     "name": "Superior Cooldown",
@@ -1761,7 +1836,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/9/93/Superior_Cooldown.png/64px-Superior_Cooldown.png"
+    "image": "/images/thumb/9/93/Superior_Cooldown.png/96px-Superior_Cooldown.png"
   },
   {
     "name": "Superior Duration",
@@ -1781,7 +1856,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/c/c7/Superior_Duration.png/64px-Superior_Duration.png"
+    "image": "/images/thumb/c/c7/Superior_Duration.png/96px-Superior_Duration.png"
   },
   {
     "name": "Surge of Power",
@@ -1799,9 +1874,8 @@
       "+3m/s Move Speed [Conditional]",
       "Duration 6s"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/d/d4/Surge_of_Power.png/64px-Surge_of_Power.png"
+    "image": "/images/thumb/d/d4/Surge_of_Power.png/96px-Surge_of_Power.png"
   },
   {
     "name": "Torment Pulse",
@@ -1817,9 +1891,8 @@
       "40 + (0.24 * Spirit Power) Spirit Damage",
       "9m Pulse Radius"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/4/42/Torment_Pulse.png/64px-Torment_Pulse.png"
+    "image": "/images/thumb/4/42/Torment_Pulse.png/96px-Torment_Pulse.png"
   },
   {
     "name": "Ethereal Shift",
@@ -1831,9 +1904,15 @@
     "stats": [],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/3/3c/Ethereal_Shift.png/64px-Ethereal_Shift.png"
+    "hasActives": ["Active", "30s"],
+    "actives": [
+      "You enter a void state and become untargetable and invincible for a short duration, during which you cannot move or perform any actions.",
+      "Afterwards you instantly reload and gain bonus Spirit Power.",
+      "3.5s Duration",
+      "+14 Bonus Spirit Power",
+      "10s Bonus Spirit Duration"
+    ],
+    "image": "/images/thumb/3/3c/Ethereal_Shift.png/96px-Ethereal_Shift.png"
   },
   {
     "name": "Knockdown",
@@ -1845,9 +1924,13 @@
     "stats": ["+1 Stamina", "+200 Spirit Shield Health", "+6 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/3/36/Knockdown.png/64px-Knockdown.png"
+    "hasActives": ["Active", "45s"],
+    "actives": [
+      "Target is knocked down and Stunned after a 2s delay, interrupting and temporarily preventing them from taking any action.",
+      "0.9s Stun Duration",
+      "45m Cast Range"
+    ],
+    "image": "/images/thumb/3/36/Knockdown.png/96px-Knockdown.png"
   },
   {
     "name": "Silence Glyph",
@@ -1859,9 +1942,14 @@
     "stats": ["+150 Spirit Shield Health", "+1m/s Sprint Speed"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/3/3c/Silence_Glyph.png/64px-Silence_Glyph.png"
+    "hasActives": ["Active", "32s"],
+    "actives": [
+      "Fires a projectile which silences and damages the target. Silence does not interrupt channeling abilities.",
+      "25m Cast Range",
+      "3s Duration",
+      "100 + (1.00 * SpiritPower) Spirit Damage"
+    ],
+    "image": "/images/thumb/3/3c/Silence_Glyph.png/96px-Silence_Glyph.png"
   },
   {
     "name": "Boundless Spirit",
@@ -1881,7 +1969,7 @@
     "passives": [],
     "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/9/97/Boundless_Spirit.png/64px-Boundless_Spirit.png"
+    "image": "/images/thumb/9/97/Boundless_Spirit.png/96px-Boundless_Spirit.png"
   },
   {
     "name": "Diviner's Kevlar",
@@ -1899,9 +1987,8 @@
       "+40 Spirit Power",
       "15s Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/0a/Diviner%27s_Kevlar.png/64px-Diviner%27s_Kevlar.png"
+    "image": "/images/thumb/0/0a/Diviner%27s_Kevlar.png/96px-Diviner%27s_Kevlar.png"
   },
   {
     "name": "Escalating Exposure",
@@ -1922,9 +2009,8 @@
       "15s Duration",
       "0.7s Max Frequency per Target"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/2/21/Escalating_Exposure.png/64px-Escalating_Exposure.png"
+    "image": "/images/thumb/2/21/Escalating_Exposure.png/96px-Escalating_Exposure.png"
   },
   {
     "name": "Mystic Reverb",
@@ -1946,9 +2032,8 @@
       "16m Radius",
       "3s Delay Duration"
     ],
-    "hasActives": [],
     "actives": [],
-    "image": "/images/thumb/0/07/Mystic_Reverb.png/64px-Mystic_Reverb.png"
+    "image": "/images/thumb/0/07/Mystic_Reverb.png/96px-Mystic_Reverb.png"
   },
   {
     "name": "Curse",
@@ -1960,9 +2045,13 @@
     "stats": ["+20% Weapon Damage", "+8 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/8/85/Curse.png/64px-Curse.png"
+    "hasActives": ["Active", "50s"],
+    "actives": [
+      "Curses an enemy - interrupting, Siliencing, Disarming, and preventing item usage.",
+      "3.25s Status Duration",
+      "20m Cast Range"
+    ],
+    "image": "/images/thumb/8/85/Curse.png/96px-Curse.png"
   },
   {
     "name": "Echo Shard",
@@ -1974,9 +2063,11 @@
     "stats": ["+1m/s Move Speed", "+16% Bullet Resist", "+12 Spirit Power"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/a/ab/Echo_Shard.png/64px-Echo_Shard.png"
+    "hasActives": ["Active", "21s"],
+    "actives": [
+      "Reset the cooldown of your most recently used non-ultimate ability."
+    ],
+    "image": "/images/thumb/a/ab/Echo_Shard.png/96px-Echo_Shard.png"
   },
   {
     "name": "Magic Carpet",
@@ -1988,9 +2079,16 @@
     "stats": ["+10% Ability Duration", "+15 Spirit Power", "+150 Bonus Health"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/2/25/Magic_Carpet.png/64px-Magic_Carpet.png"
+    "hasActives": ["Active", "30s"],
+    "actives": [
+      "Summon a Magic Carpet that will fly you away and gain Bullet and Spirit Shields. Cannot use abilities while the carpet is being summoned. While flying you are immune to slows and doing any action will dismiss the carpet.",
+      "+400 Bullet & Spirit Shield Health",
+      "7.7s Duration",
+      "1.3s Summon Duration",
+      "+6m/s Bonus Fly Speed",
+      "17.6s Shield Duration"
+    ],
+    "image": "/images/thumb/2/25/Magic_Carpet.png/96px-Magic_Carpet.png"
   },
   {
     "name": "Refresher",
@@ -2002,8 +2100,10 @@
     "stats": ["+16% Spirit Resist", "+8% Bullet Resist"],
     "hasPassives": [],
     "passives": [],
-    "hasActives": [],
-    "actives": [],
-    "image": "/images/thumb/5/53/Refresher.png/64px-Refresher.png"
+    "hasActives": ["Active", "197s"],
+    "actives": [
+      "Reset the cooldown of all your abilities and restore all your charges"
+    ],
+    "image": "/images/thumb/5/53/Refresher.png/96px-Refresher.png"
   }
 ]

@@ -27,28 +27,28 @@ export function ItemContent({ item }: { item: IItem }) {
         </div>
       </div>
 
-      {item.description.length > 0 && (
+      {item.description && item.description.length > 0 && (
         <>
           <Divider />
           <ItemSection title='Description' item={item.description} />
         </>
       )}
 
-      {item.components.length > 0 && (
+      {item.components && item.components.length > 0 && (
         <>
           <Divider />
           <ItemSection title='Components' item={item.components} />
         </>
       )}
 
-      {item.stats.length > 0 && (
+      {item.stats && item.stats.length > 0 && (
         <>
           <Divider />
           <ItemSection title='Stats' item={item.stats} />
         </>
       )}
 
-      {item.hasPassives.length > 0 && (
+      {item.hasPassives && item.hasPassives.length > 0 && (
         <>
           <Divider />
           <ItemTitle item={item.hasPassives} />
@@ -57,7 +57,7 @@ export function ItemContent({ item }: { item: IItem }) {
         </>
       )}
 
-      {item.hasActives.length > 0 && (
+      {item.hasActives && item.hasActives.length > 0 && (
         <>
           <Divider />
           <ItemTitle item={item.hasActives} />

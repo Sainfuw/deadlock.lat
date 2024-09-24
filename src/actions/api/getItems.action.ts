@@ -1,8 +1,5 @@
-import { defineAction } from 'astro:actions'
-// import { getData } from '@/lib/getItemData'
-// import fs from 'fs/promises'
-// import { JSDOM } from 'jsdom'
 import items from '@/data/items.json'
+import { defineAction } from 'astro:actions'
 
 export const getItems = defineAction({
   accept: 'json',
@@ -55,18 +52,21 @@ export const getItems = defineAction({
     //   const tableRegex = /<table[^>]*>[\s\S]*?<\/table>/g
     //   const HtmlTables = text.match(tableRegex)
 
+    //   if (HtmlTables === null) return
     //   const t0 = getData(HtmlTables[0])
     //   if (t0![0] === 'StatsWeapon') return
     //   const imageNode = new JSDOM(HtmlTables[0])
-    //   const image = imageNode.window.document.querySelectorAll('img')[1].src
+    //   const image = imageNode.window.document
+    //     .querySelectorAll('img')[1]
+    //     .src.replace('64px', '96px')
 
     //   const t1 = getData(HtmlTables[1])
     //   const t2 = getData(HtmlTables[2])
     //   const t3 = getData(HtmlTables[3])
     //   const t4 = getData(HtmlTables[4])
     //   const t5 = getData(HtmlTables[5])
-    //   const t6 = getData(HtmlTables[6])
-    //   const t7 = getData(HtmlTables[7])
+    //   const t10 = getData(HtmlTables[10])
+    //   const t11 = getData(HtmlTables[11])
 
     //   return {
     //     name: t0![0],
@@ -78,8 +78,8 @@ export const getItems = defineAction({
     //     stats: t3,
     //     hasPassives: t4,
     //     passives: t5 ?? [],
-    //     hasActives: t6,
-    //     actives: t7 ?? [],
+    //     hasActives: t10,
+    //     actives: t11 ?? [],
     //     image,
     //   }
     // })
@@ -105,9 +105,9 @@ export const getItems = defineAction({
           } else if (item.price > 500 && item.price <= 1250) {
             acc['1250'] = [...(acc['1250'] || []), item]
           } else if (item.price > 1250 && item.price < 6000) {
-            acc['3000'] = [...(acc['3000'] || []), item]
+            acc['3000+'] = [...(acc['3000+'] || []), item]
           } else {
-            acc['6000'] = [...(acc['6000'] || []), item]
+            acc['6200+'] = [...(acc['6200+'] || []), item]
           }
           return acc
         }, {})

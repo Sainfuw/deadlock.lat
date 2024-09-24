@@ -1,6 +1,6 @@
 import { API_BASE_URL } from '@/consts'
 import type { IItem } from '@/interfaces/item'
-import { Card, CardContent } from '../ui/card'
+import { Card, CardContent, CardFooter } from '../ui/card'
 import {
   Tooltip,
   TooltipContent,
@@ -16,10 +16,10 @@ interface Props {
 export const TooltipItem = ({ item }: Props) => {
   const typeColor =
     item.type === 'Weapon Damage'
-      ? 'bg-orange-400/60 hover:bg-orange-400/30'
+      ? 'bg-[#dd9643] hover:bg-[#dd9643]/60'
       : item.type === 'Base Health'
-        ? 'bg-green-400/60 hover:bg-green-400/30'
-        : 'bg-purple-400/60 hover:bg-purple-400/30'
+        ? 'bg-[#7dbb1b] hover:bg-[#7dbb1b]/60'
+        : 'bg-[#bc87eb] hover:bg-[#bc87eb]/60'
 
   return (
     <TooltipProvider>
@@ -32,11 +32,16 @@ export const TooltipItem = ({ item }: Props) => {
               <img
                 src={`${API_BASE_URL}${item.image}`}
                 alt={item.name}
-                width={100}
-                height={100}
-                className='rounded-lg mx-auto'
+                width={50}
+                height={50}
+                className='rounded-lg mx-auto aspect-2/3'
               />
             </CardContent>
+            <CardFooter className='p-0 bg-[#ffefd7] text-black rounded-b h-16'>
+              <h3 className='text-center text-[15px] font-semibold px-2 w-full'>
+                {item.name}
+              </h3>
+            </CardFooter>
           </Card>
         </TooltipTrigger>
         <TooltipContent>
