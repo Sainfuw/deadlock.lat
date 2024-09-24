@@ -60,6 +60,6 @@ export const getHeroes = defineAction({
 
     // fs.writeFile('src/data/heroes.json', JSON.stringify(result))
 
-    return result
+    return result as IHero[]
   },
 })

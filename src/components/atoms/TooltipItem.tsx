@@ -26,7 +26,7 @@ export const TooltipItem = ({ item }: Props) => {
       <Tooltip>
         <TooltipTrigger asChild>
           <Card
-            className={`transition-colors border border-black/30 dark:border-white/20 ${typeColor}`}
+            className={`transition-colors border border-black/30 dark:border-white/20 cursor-pointer ${typeColor}`}
           >
             <CardContent className='p-3'>
               <img

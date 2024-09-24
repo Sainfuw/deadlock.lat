@@ -15,7 +15,7 @@ export const LoginButton = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant='outline'>Sign In</Button>
+        <Button variant='outline'>Log In</Button>
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>

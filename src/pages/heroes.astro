@@ -1,0 +1,15 @@
+---
+import { TooltipHeroe } from '@/components/atoms/TooltipHeroe'
+import Layout from '@/layouts/Layout.astro'
+
+import heroes from '@/data/heroes.json'
+---
+
+<Layout title='Heroes'>
+  <h2 class='text-2xl font-bold text-center py-4'>List of Heroes</h2>
+  <div
+    class='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-6'
+  >
+    {heroes.map((hero, i) => <TooltipHeroe hero={hero} />)}
+  </div>
+</Layout>

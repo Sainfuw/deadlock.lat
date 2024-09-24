@@ -1,5 +1,12 @@
 import items from '@/data/items.json'
+import type { IItem } from '@/interfaces/item'
 import { defineAction } from 'astro:actions'
+
+export interface Items {
+  [key: string]: {
+    [key: string]: IItem[]
+  }
+}
 
 export const getItems = defineAction({
   accept: 'json',
@@ -115,6 +122,6 @@ export const getItems = defineAction({
       })
     )
 
-    return groupedByTypeAndPrice
+    return groupedByTypeAndPrice as Items
   },
 })

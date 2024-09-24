@@ -2,11 +2,12 @@
 import { Image } from 'astro:assets'
 
 import { Moon, Sun } from 'lucide-react'
-import { Dropdown } from './atoms/Dropdown'
 import { LoginButton } from './atoms/LoginButton'
 import { Switch } from './ui/switch'
 
 let isDarkMode = true
+
+const path = Astro.url.pathname
 ---
 
 <nav class='border-b border-black/20 dark:border-white/20 py-4'>
@@ -15,9 +16,20 @@ let isDarkMode = true
       <Image src='/logo.svg' alt='Logo' width={100} height={40} class='mr-2' />
       <span class='text-xl font-bold'></span>
     </div>
-    <div class='flex items-center space-x-4 gap-8'>
-      <Dropdown client:load />
-      <div class='flex items-center space-x-2'>
+    <div class='flex items-center space-x-2 gap-8'>
+      <ul class='flex space-x-4 *:min-w-16'>
+        <li
+          class:list={['hover:underline', { 'font-bold': path === '/heroes' }]}
+        >
+          <a href='/heroes'>Heroes</a>
+        </li>
+        <li
+          class:list={['hover:underline', { 'font-bold': path === '/items' }]}
+        >
+          <a href='/items'>Items</a>
+        </li>
+      </ul>
+      <div class='flex items-center space-x-1'>
         <Sun
           className='h-[1.2rem] w-[1.2rem] text-gray-400 dark:text-gray-500'
         />
